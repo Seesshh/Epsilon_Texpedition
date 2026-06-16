@@ -1,0 +1,901 @@
+customer_id,name,city,tier,tier_idx,recency_days,frequency_90d,avg_order_value,tenure_months,sessions_30d,browse_events_30d,rewards_unredeemed,support_tickets_90d,nps,discount_sensitivity,preferred_channel,ltv,churned,converted
+CX0000,Vihaan Verma,Chennai,Gold,2,93,13,3884.0,21,10,20,4,0,6,0.139,Email,249772.0,1,0
+CX0001,Arjun Iyer,Hyderabad,Silver,1,5,1,2445.0,27,7,15,4,0,9,0.334,SMS,15905.0,0,1
+CX0002,Veer Nair,Pune,Silver,1,9,3,1702.0,26,6,15,1,3,7,0.298,App Push,26786.0,0,0
+CX0003,Reyansh Khan,Delhi,Base,0,19,6,990.0,15,3,11,3,0,4,0.266,Email,19020.0,1,0
+CX0004,Riya Bose,Chennai,Base,0,13,1,1433.0,15,3,8,2,1,4,0.326,WhatsApp,4595.0,0,0
+CX0005,Kabir Reddy,Mumbai,Base,0,5,7,1010.0,10,4,7,1,0,9,0.248,Email,27151.0,0,0
+CX0006,Ananya Patel,Chennai,Silver,1,3,7,2058.0,19,7,8,7,0,5,0.24,App Push,77694.0,0,1
+CX0007,Zoya Menon,Chennai,Base,0,28,3,716.0,17,4,8,0,0,6,0.558,WhatsApp,7433.0,0,1
+CX0008,Aditya Rao,Hyderabad,Base,0,3,2,1093.0,7,4,16,7,0,7,0.813,App Push,8730.0,0,1
+CX0009,Saanvi Iyer,Mumbai,Base,0,33,5,1489.0,17,7,6,0,1,3,0.483,App Push,24449.0,0,0
+CX0010,Ishaan Khan,Chennai,Base,0,150,3,1052.0,14,5,5,3,2,3,0.463,SMS,5641.0,1,0
+CX0011,Nisha Reddy,Bengaluru,Silver,1,22,8,2354.0,33,10,18,3,1,5,0.336,App Push,96073.0,0,0
+CX0012,Anika Khan,Hyderabad,Gold,2,14,9,3651.0,42,9,19,3,0,5,0.161,App Push,228113.0,0,0
+CX0013,Tara Patel,Mumbai,Platinum,3,3,12,6076.0,56,7,19,6,0,7,0.608,SMS,636285.0,0,1
+CX0014,Rohan Das,Bengaluru,Silver,1,23,11,2606.0,27,4,12,0,2,7,0.228,App Push,155490.0,0,1
+CX0015,Veer Khan,Hyderabad,Silver,1,1,5,1815.0,14,6,14,2,0,8,0.261,SMS,47721.0,0,0
+CX0016,Myra Pillai,Hyderabad,Gold,2,3,14,3665.0,33,6,15,0,0,6,0.308,WhatsApp,370372.0,0,0
+CX0017,Rohan Gupta,Bengaluru,Base,0,25,5,1811.0,1,6,13,4,0,8,0.262,Email,29145.0,0,0
+CX0018,Saanvi Bose,Delhi,Silver,1,38,1,1990.0,26,10,19,1,3,4,0.345,App Push,9778.0,0,0
+CX0019,Aditya Pillai,Chennai,Base,0,5,0,465.0,15,7,10,2,0,8,0.586,SMS,344.0,0,0
+CX0020,Myra Bose,Bengaluru,Gold,2,204,8,2574.0,22,5,9,2,0,8,0.228,App Push,63231.0,1,1
+CX0021,Reyansh Nair,Chennai,Gold,2,25,8,3140.0,34,4,14,2,1,3,0.289,App Push,158821.0,0,0
+CX0022,Vivaan Joshi,Delhi,Silver,1,16,7,2470.0,5,5,19,1,1,6,0.142,App Push,87909.0,1,1
+CX0023,Navya Patel,Chennai,Base,0,2,4,1398.0,23,8,10,3,1,6,0.568,App Push,21429.0,0,0
+CX0024,Pari Menon,Hyderabad,Silver,1,74,7,3014.0,38,6,15,4,0,7,0.381,Email,83683.0,0,1
+CX0025,Zoya Verma,Delhi,Base,0,8,3,396.0,20,4,4,2,1,5,0.399,App Push,4169.0,1,0
+CX0026,Aarav Mehta,Chennai,Gold,2,116,7,3899.0,35,12,18,3,1,10,0.334,App Push,122103.0,1,1
+CX0027,Riya Rao,Pune,Base,0,11,5,1139.0,3,4,13,3,1,4,0.716,App Push,18514.0,1,0
+CX0028,Mira Nair,Chennai,Silver,1,31,6,1598.0,24,13,16,2,0,8,0.294,Email,47969.0,1,0
+CX0029,Tara Sharma,Pune,Base,0,10,3,1208.0,1,8,9,4,0,8,0.525,SMS,13241.0,1,0
+CX0030,Myra Das,Pune,Gold,2,10,10,3670.0,20,8,17,3,1,7,0.196,WhatsApp,261058.0,0,0
+CX0031,Dhruv Menon,Pune,Platinum,3,86,12,5399.0,42,9,21,6,0,8,0.077,Email,464267.0,1,1
+CX0032,Aryan Gupta,Mumbai,Base,0,141,3,818.0,25,6,7,0,0,6,0.735,WhatsApp,4538.0,1,0
+CX0033,Zoya Iyer,Bengaluru,Gold,2,12,9,3125.0,12,11,24,5,0,10,0.097,WhatsApp,200161.0,0,0
+CX0034,Myra Pillai,Chennai,Base,0,13,1,1049.0,21,4,6,4,0,8,0.36,App Push,4083.0,0,0
+CX0035,Arjun Patel,Chennai,Silver,1,4,5,2035.0,31,11,13,2,0,6,0.366,App Push,55481.0,0,0
+CX0036,Ananya Rao,Bengaluru,Gold,2,31,2,3882.0,28,8,19,7,1,2,0.405,SMS,43822.0,0,0
+CX0037,Ananya Bose,Chennai,Gold,2,12,7,3689.0,15,5,16,5,2,7,0.363,Email,175801.0,0,0
+CX0038,Riya Iyer,Chennai,Platinum,3,190,7,6056.0,42,11,23,4,0,5,0.457,App Push,163131.0,1,0
+CX0039,Rohan Iyer,Bengaluru,Silver,1,57,7,1757.0,25,5,6,1,1,8,0.375,Email,53441.0,0,0
+CX0040,Aarav Bose,Delhi,Base,0,11,3,1601.0,15,6,5,2,1,8,0.34,App Push,17151.0,0,1
+CX0041,Zoya Reddy,Pune,Base,0,3,6,1079.0,22,7,12,1,2,9,0.189,Email,24968.0,0,0
+CX0042,Veer Mehta,Chennai,Base,0,20,1,592.0,13,6,9,1,0,6,0.622,Email,2533.0,0,1
+CX0043,Arjun Joshi,Chennai,Gold,2,29,10,2633.0,35,13,16,2,0,6,0.203,Email,185595.0,0,0
+CX0044,Aditya Rao,Hyderabad,Silver,1,24,6,2190.0,25,3,14,1,1,8,0.185,WhatsApp,68800.0,0,0
+CX0045,Anika Iyer,Mumbai,Base,0,29,2,189.0,11,6,7,2,1,4,0.64,Email,1158.0,0,0
+CX0046,Pari Sharma,Delhi,Gold,2,84,13,2954.0,30,16,11,7,0,9,0.346,WhatsApp,229112.0,1,0
+CX0047,Aadhya Verma,Mumbai,Base,0,41,1,120.0,1,6,12,3,1,5,0.359,Email,428.0,0,0
+CX0048,Saanvi Mehta,Pune,Base,0,4,1,1861.0,24,8,9,1,1,5,0.814,SMS,7607.0,0,1
+CX0049,Saanvi Reddy,Bengaluru,Gold,2,58,10,3174.0,28,9,19,4,0,2,0.121,Email,172012.0,0,0
+CX0050,Reyansh Nair,Delhi,Base,0,111,1,736.0,12,6,10,3,0,7,0.386,WhatsApp,1636.0,0,0
+CX0051,Sai Verma,Bengaluru,Base,0,5,6,1189.0,14,5,7,1,1,5,0.66,WhatsApp,26155.0,0,1
+CX0052,Ananya Gupta,Delhi,Base,0,40,2,1412.0,16,1,15,1,1,3,0.256,Email,9210.0,1,0
+CX0053,Veer Nair,Chennai,Base,0,20,4,508.0,3,2,9,2,0,8,0.468,App Push,6627.0,1,0
+CX0054,Vihaan Iyer,Pune,Base,0,22,4,167.0,4,8,7,3,0,4,0.337,App Push,2174.0,0,0
+CX0055,Tara Mehta,Hyderabad,Base,0,16,4,388.0,22,5,6,0,0,6,0.394,Email,5348.0,0,0
+CX0056,Ishaan Sharma,Bengaluru,Base,0,21,4,507.0,11,4,16,2,1,5,0.902,WhatsApp,6798.0,0,1
+CX0057,Vihaan Rao,Mumbai,Base,0,31,3,1695.0,15,6,10,1,1,5,0.787,SMS,16579.0,1,1
+CX0058,Vihaan Patel,Delhi,Base,0,2,3,403.0,19,3,10,2,2,4,0.251,WhatsApp,4554.0,0,0
+CX0059,Aarav Menon,Mumbai,Base,0,2,1,769.0,14,4,5,4,0,5,0.615,WhatsApp,2994.0,0,0
+CX0060,Navya Rao,Delhi,Base,0,4,1,760.0,9,4,8,2,1,7,0.511,Email,3219.0,0,1
+CX0061,Kiara Gupta,Pune,Platinum,3,51,8,5523.0,40,12,31,5,0,8,0.317,App Push,372063.0,0,1
+CX0062,Yash Mehta,Chennai,Base,0,6,5,2306.0,1,5,15,1,0,6,0.893,App Push,40838.0,1,0
+CX0063,Arjun Bose,Chennai,Base,0,8,2,120.0,12,8,4,3,1,6,0.476,Email,891.0,0,0
+CX0064,Riya Pillai,Pune,Silver,1,7,6,1778.0,21,8,17,0,2,7,0.053,App Push,55928.0,0,0
+CX0065,Vivaan Nair,Chennai,Base,0,9,2,120.0,9,1,9,2,0,5,0.121,App Push,780.0,1,1
+CX0066,Diya Gupta,Delhi,Silver,1,6,3,2882.0,30,4,19,4,1,8,0.445,App Push,45010.0,0,1
+CX0067,Sai Nair,Mumbai,Base,0,29,2,120.0,27,4,13,0,2,4,0.818,App Push,757.0,0,0
+CX0068,Ishaan Patel,Delhi,Base,0,18,6,1460.0,10,3,13,2,1,6,0.432,SMS,28371.0,0,0
+CX0069,Vihaan Gupta,Hyderabad,Platinum,3,4,9,4656.0,27,4,23,7,0,7,0.02,App Push,364495.0,0,0
+CX0070,Ishaan Sharma,Hyderabad,Base,0,35,4,950.0,24,4,8,3,2,7,0.468,WhatsApp,11830.0,0,0
+CX0071,Tara Joshi,Delhi,Gold,2,17,8,3070.0,18,7,25,7,2,6,0.25,WhatsApp,162178.0,0,1
+CX0072,Arjun Khan,Bengaluru,Base,0,3,4,626.0,25,1,10,4,0,5,0.846,SMS,8830.0,1,0
+CX0073,Riya Iyer,Mumbai,Gold,2,37,5,3514.0,39,9,17,5,0,10,0.061,App Push,117253.0,0,0
+CX0074,Aadhya Das,Chennai,Base,0,74,7,1120.0,1,2,10,3,0,9,0.271,SMS,18253.0,0,0
+CX0075,Rohan Reddy,Bengaluru,Gold,2,80,11,3251.0,21,10,22,5,1,5,0.261,WhatsApp,183785.0,0,0
+CX0076,Sai Joshi,Chennai,Base,0,47,6,822.0,28,4,7,1,1,7,0.267,Email,16050.0,1,1
+CX0077,Aarav Iyer,Pune,Silver,1,5,6,2527.0,33,6,11,3,2,6,0.473,WhatsApp,82068.0,1,0
+CX0078,Aadhya Pillai,Bengaluru,Platinum,3,1,10,5134.0,39,7,15,7,0,5,0.057,Email,432291.0,0,0
+CX0079,Pari Gupta,Hyderabad,Silver,1,5,4,2217.0,28,2,11,4,3,4,0.233,App Push,47459.0,0,0
+CX0080,Yash Rao,Hyderabad,Base,0,13,0,668.0,18,4,9,2,2,7,0.663,WhatsApp,503.0,0,0
+CX0081,Navya Khan,Chennai,Base,0,20,1,212.0,8,3,6,2,0,7,0.663,Email,845.0,1,1
+CX0082,Ishaan Khan,Mumbai,Platinum,3,3,13,5046.0,42,10,35,7,0,10,0.222,App Push,581779.0,1,1
+CX0083,Tara Reddy,Delhi,Base,0,29,4,120.0,7,2,13,1,0,8,0.758,Email,1597.0,1,0
+CX0084,Saanvi Patel,Hyderabad,Base,0,14,4,939.0,6,4,11,5,1,7,0.875,WhatsApp,11236.0,1,1
+CX0085,Rohan Rao,Mumbai,Base,0,7,3,1335.0,24,5,11,0,1,6,0.557,App Push,13941.0,1,1
+CX0086,Sai Mehta,Mumbai,Silver,1,14,6,2452.0,15,5,10,6,2,5,0.74,App Push,70484.0,0,1
+CX0087,Krishna Gupta,Chennai,Base,0,94,3,2066.0,21,6,11,1,0,6,0.396,WhatsApp,13773.0,1,0
+CX0088,Ananya Rao,Mumbai,Gold,2,182,5,4068.0,17,13,13,2,0,9,0.604,Email,64940.0,1,0
+CX0089,Aryan Rao,Mumbai,Base,0,37,2,755.0,14,3,13,3,0,3,0.221,WhatsApp,4004.0,1,1
+CX0090,Aditya Reddy,Hyderabad,Platinum,3,11,14,4767.0,46,7,24,5,0,9,0.203,Email,590693.0,0,1
+CX0091,Myra Iyer,Mumbai,Base,0,13,4,1021.0,19,6,4,0,0,9,0.631,Email,14070.0,1,1
+CX0092,Diya Nair,Delhi,Gold,2,22,9,2972.0,23,9,19,7,1,5,0.393,SMS,169895.0,1,0
+CX0093,Ishaan Das,Hyderabad,Platinum,3,4,13,4891.0,32,11,19,2,0,7,0.189,App Push,559961.0,0,1
+CX0094,Aryan Rao,Bengaluru,Silver,1,15,5,2269.0,27,3,14,1,1,4,0.44,App Push,56879.0,0,0
+CX0095,Yash Reddy,Pune,Base,0,50,1,576.0,28,7,5,4,0,3,0.244,App Push,1584.0,1,0
+CX0096,Nisha Pillai,Hyderabad,Base,0,18,3,791.0,16,4,10,0,1,8,0.726,Email,7170.0,0,0
+CX0097,Vihaan Sharma,Pune,Base,0,8,1,565.0,24,2,11,6,0,3,0.402,Email,2059.0,0,1
+CX0098,Kabir Rao,Delhi,Gold,2,95,12,4330.0,25,4,14,5,2,6,0.167,Email,232129.0,0,1
+CX0099,Rohan Gupta,Delhi,Base,0,53,3,120.0,6,9,11,3,0,3,0.49,WhatsApp,1058.0,0,0
+CX0100,Aarav Bose,Bengaluru,Base,0,32,0,842.0,23,12,10,2,0,7,0.408,SMS,587.0,1,0
+CX0101,Aditya Khan,Pune,Gold,2,17,11,2752.0,42,16,23,3,0,8,0.608,WhatsApp,216025.0,0,0
+CX0102,Veer Rao,Bengaluru,Gold,2,4,7,4238.0,33,6,13,3,1,10,0.234,SMS,208415.0,0,0
+CX0103,Yash Joshi,Bengaluru,Silver,1,74,6,1929.0,11,5,18,1,0,7,0.707,Email,39726.0,1,1
+CX0104,Kunal Rao,Pune,Base,0,55,1,1070.0,15,4,9,2,0,5,0.488,Email,2880.0,1,0
+CX0105,Pari Joshi,Chennai,Base,0,12,3,120.0,27,4,14,2,0,6,0.581,WhatsApp,1349.0,0,0
+CX0106,Aditya Pillai,Delhi,Silver,1,11,14,3012.0,18,9,16,3,0,4,0.38,Email,228277.0,0,0
+CX0107,Reyansh Bose,Pune,Base,0,1,7,294.0,17,5,7,2,0,5,0.314,App Push,7385.0,1,0
+CX0108,Dhruv Patel,Hyderabad,Base,0,1,2,1122.0,18,7,9,1,2,5,0.39,App Push,8648.0,0,0
+CX0109,Pari Nair,Chennai,Base,0,21,3,584.0,12,9,9,2,0,7,0.717,App Push,5829.0,1,0
+CX0110,Zoya Reddy,Hyderabad,Silver,1,6,4,3212.0,11,1,22,6,3,4,0.223,Email,61586.0,0,0
+CX0111,Ishaan Joshi,Chennai,Gold,2,61,14,3816.0,32,11,18,4,0,6,0.399,Email,348226.0,0,1
+CX0112,Riya Nair,Chennai,Base,0,40,2,120.0,4,4,12,1,0,6,0.245,Email,711.0,0,0
+CX0113,Diya Mehta,Mumbai,Silver,1,112,4,1772.0,27,8,8,2,0,10,0.872,Email,23862.0,1,0
+CX0114,Ishaan Mehta,Mumbai,Gold,2,6,7,3172.0,36,13,16,5,0,7,0.047,App Push,158856.0,0,0
+CX0115,Nisha Reddy,Hyderabad,Gold,2,28,9,3573.0,36,5,17,5,1,5,0.503,SMS,212935.0,0,1
+CX0116,Reyansh Rao,Delhi,Gold,2,44,14,3022.0,16,15,18,6,0,9,0.25,App Push,279891.0,0,1
+CX0117,Pari Bose,Chennai,Base,0,4,2,1108.0,6,3,9,4,1,8,0.703,WhatsApp,8085.0,0,0
+CX0118,Kabir Iyer,Hyderabad,Base,0,10,1,1176.0,1,6,5,1,1,6,0.636,Email,4393.0,0,0
+CX0119,Krishna Reddy,Mumbai,Silver,1,7,3,2805.0,19,7,7,6,0,10,0.351,App Push,47494.0,1,1
+CX0120,Saanvi Rao,Mumbai,Gold,2,1,10,4231.0,35,11,16,2,1,10,0.501,App Push,303294.0,0,1
+CX0121,Krishna Joshi,Delhi,Silver,1,14,4,2744.0,32,6,13,2,0,8,0.474,WhatsApp,55269.0,0,0
+CX0122,Aryan Patel,Chennai,Base,0,1,0,861.0,19,3,10,1,1,7,0.137,SMS,750.0,0,1
+CX0123,Kunal Patel,Mumbai,Base,0,23,2,1071.0,24,4,8,3,0,10,0.329,SMS,8181.0,0,0
+CX0124,Navya Reddy,Hyderabad,Base,0,30,2,678.0,23,6,12,2,0,6,0.487,Email,4426.0,1,1
+CX0125,Aditya Patel,Delhi,Base,0,10,6,1189.0,6,4,10,2,2,6,0.45,App Push,25776.0,1,0
+CX0126,Kunal Bose,Bengaluru,Platinum,3,1,8,4802.0,18,9,24,8,1,8,0.132,WhatsApp,333485.0,0,1
+CX0127,Pari Reddy,Bengaluru,Gold,2,2,9,3822.0,29,6,11,7,1,6,0.076,WhatsApp,237463.0,1,0
+CX0128,Yash Bose,Hyderabad,Silver,1,8,5,2512.0,22,8,11,3,1,7,0.375,SMS,66896.0,0,0
+CX0129,Vivaan Pillai,Bengaluru,Gold,2,44,14,3215.0,32,14,15,5,1,4,0.336,App Push,292984.0,0,0
+CX0130,Arjun Joshi,Pune,Silver,1,10,2,2483.0,13,8,9,3,0,6,0.465,Email,24088.0,1,0
+CX0131,Myra Joshi,Delhi,Base,0,1,2,120.0,15,3,8,3,2,7,0.537,Email,837.0,0,1
+CX0132,Dhruv Nair,Chennai,Base,0,1,2,1082.0,20,6,6,2,0,4,0.394,SMS,8024.0,0,0
+CX0133,Aryan Khan,Pune,Silver,1,1,5,2694.0,15,7,21,2,1,6,0.208,App Push,72191.0,0,0
+CX0134,Navya Menon,Hyderabad,Base,0,1,1,589.0,5,3,14,1,1,6,0.568,Email,2250.0,1,0
+CX0135,Vihaan Sharma,Pune,Base,0,28,5,1033.0,7,3,7,3,1,7,0.414,SMS,17001.0,0,0
+CX0136,Navya Mehta,Pune,Base,0,14,1,120.0,5,5,6,1,0,2,0.404,WhatsApp,424.0,1,1
+CX0137,Sai Pillai,Mumbai,Base,0,63,2,120.0,21,7,12,1,1,7,0.271,App Push,627.0,1,0
+CX0138,Kunal Gupta,Hyderabad,Base,0,57,3,726.0,25,6,12,0,0,6,0.758,Email,6772.0,0,0
+CX0139,Aditya Sharma,Mumbai,Gold,2,5,10,2521.0,46,12,21,4,0,10,0.355,Email,181720.0,0,1
+CX0140,Dhruv Rao,Hyderabad,Silver,1,41,5,1567.0,16,7,8,4,0,9,0.52,SMS,35521.0,1,0
+CX0141,Rohan Verma,Mumbai,Silver,1,18,5,2255.0,27,11,15,4,0,9,0.422,App Push,61863.0,0,1
+CX0142,Sai Menon,Chennai,Silver,1,7,5,1823.0,25,7,12,4,0,3,0.527,WhatsApp,47606.0,0,0
+CX0143,Anika Reddy,Hyderabad,Base,0,2,5,974.0,19,3,11,1,0,7,0.379,SMS,17764.0,0,1
+CX0144,Vivaan Joshi,Pune,Base,0,14,3,1114.0,16,5,7,2,0,5,0.375,WhatsApp,12198.0,0,1
+CX0145,Pari Das,Chennai,Base,0,65,1,1310.0,25,0,8,3,0,5,0.593,Email,4089.0,1,0
+CX0146,Tara Rao,Mumbai,Base,0,2,1,891.0,11,2,12,1,0,7,0.107,SMS,3603.0,0,0
+CX0147,Aadhya Sharma,Bengaluru,Silver,1,2,3,2350.0,20,4,13,1,0,9,0.86,Email,40285.0,0,1
+CX0148,Aadhya Rao,Pune,Base,0,30,5,1723.0,19,4,10,1,0,7,0.798,Email,28593.0,1,0
+CX0149,Anika Menon,Hyderabad,Silver,1,12,4,1459.0,23,14,10,4,0,10,0.556,App Push,31855.0,0,1
+CX0150,Kabir Menon,Mumbai,Silver,1,15,3,1761.0,24,6,20,1,1,5,0.327,Email,27352.0,0,0
+CX0151,Kabir Gupta,Pune,Base,0,9,4,509.0,24,4,12,7,0,5,0.441,WhatsApp,7176.0,1,0
+CX0152,Reyansh Mehta,Mumbai,Base,0,11,1,1427.0,16,5,7,1,0,7,0.63,SMS,6125.0,0,0
+CX0153,Reyansh Iyer,Hyderabad,Base,0,27,2,680.0,31,4,13,2,0,5,0.584,WhatsApp,3973.0,1,1
+CX0154,Vihaan Reddy,Chennai,Gold,2,126,10,3687.0,39,8,19,3,1,10,0.526,Email,182102.0,1,0
+CX0155,Sai Khan,Mumbai,Silver,1,3,5,2796.0,14,0,12,4,1,7,0.817,Email,73610.0,0,0
+CX0156,Saanvi Patel,Delhi,Silver,1,1,7,1966.0,25,5,15,3,1,9,0.094,Email,73226.0,0,0
+CX0157,Arjun Menon,Mumbai,Platinum,3,7,13,4832.0,46,13,19,5,1,9,0.687,WhatsApp,557405.0,0,1
+CX0158,Sai Khan,Delhi,Base,0,1,3,1481.0,7,9,10,3,1,4,0.619,Email,14910.0,0,0
+CX0159,Navya Bose,Bengaluru,Silver,1,77,6,2704.0,29,6,15,1,0,8,0.22,App Push,68976.0,1,0
+CX0160,Tara Verma,Chennai,Base,0,5,3,129.0,8,5,8,2,1,6,0.443,WhatsApp,1380.0,1,0
+CX0161,Riya Verma,Bengaluru,Base,0,118,3,867.0,29,5,4,3,0,4,0.835,SMS,4751.0,1,0
+CX0162,Reyansh Joshi,Delhi,Silver,1,17,8,2494.0,26,4,16,4,1,10,0.699,Email,104155.0,0,0
+CX0163,Tara Reddy,Chennai,Base,0,18,2,846.0,13,3,10,0,0,7,0.012,Email,5942.0,1,0
+CX0164,Dhruv Das,Hyderabad,Silver,1,22,4,3175.0,32,11,17,5,1,6,0.241,App Push,62485.0,0,1
+CX0165,Veer Patel,Hyderabad,Gold,2,6,9,4606.0,26,10,16,5,0,8,0.828,App Push,297541.0,1,0
+CX0166,Pari Menon,Pune,Base,0,45,0,998.0,1,5,11,0,0,8,0.144,App Push,610.0,1,1
+CX0167,Nisha Das,Chennai,Base,0,5,2,1474.0,6,4,14,0,1,6,0.381,Email,10093.0,0,1
+CX0168,Ishaan Sharma,Hyderabad,Silver,1,1,7,3185.0,26,7,12,2,0,6,0.131,App Push,118545.0,0,1
+CX0169,Tara Verma,Bengaluru,Silver,1,20,5,2471.0,18,2,14,3,1,7,0.212,SMS,61972.0,0,0
+CX0170,Vihaan Verma,Hyderabad,Silver,1,34,5,2805.0,31,11,15,1,2,10,0.42,WhatsApp,65848.0,1,1
+CX0171,Mira Menon,Mumbai,Platinum,3,240,8,5549.0,35,10,16,7,2,6,0.203,Email,162386.0,1,0
+CX0172,Ananya Khan,Hyderabad,Base,0,19,5,779.0,29,4,15,0,0,5,0.439,Email,13910.0,0,1
+CX0173,Vivaan Pillai,Hyderabad,Gold,2,151,8,3392.0,33,11,11,5,1,6,0.173,Email,94906.0,1,1
+CX0174,Reyansh Joshi,Bengaluru,Base,0,12,3,1361.0,16,3,5,3,2,3,0.194,App Push,13150.0,1,0
+CX0175,Tara Iyer,Delhi,Base,0,18,5,232.0,18,6,9,3,1,6,0.207,SMS,4185.0,0,0
+CX0176,Navya Bose,Hyderabad,Base,0,10,4,632.0,4,2,14,3,0,8,0.672,App Push,9373.0,0,0
+CX0177,Ananya Pillai,Delhi,Base,0,16,4,363.0,1,6,13,0,3,4,0.33,Email,4846.0,1,0
+CX0178,Aryan Joshi,Chennai,Gold,2,13,6,3482.0,47,3,21,4,0,9,0.078,WhatsApp,146964.0,0,0
+CX0179,Aryan Iyer,Mumbai,Base,0,28,4,579.0,6,5,6,3,1,6,0.889,App Push,6459.0,0,0
+CX0180,Aryan Gupta,Hyderabad,Platinum,3,62,12,5118.0,45,9,29,10,0,6,0.204,Email,438035.0,0,1
+CX0181,Anika Reddy,Mumbai,Silver,1,14,5,2156.0,21,9,9,1,1,6,0.338,SMS,58247.0,0,1
+CX0182,Sai Khan,Hyderabad,Platinum,3,6,14,5221.0,35,11,21,6,0,5,0.255,App Push,628620.0,0,1
+CX0183,Arjun Sharma,Hyderabad,Base,0,47,5,1041.0,2,6,10,2,1,5,0.254,WhatsApp,13105.0,1,0
+CX0184,Ishaan Sharma,Chennai,Silver,1,11,4,2269.0,17,8,10,0,0,3,0.107,Email,49256.0,0,0
+CX0185,Nisha Pillai,Hyderabad,Silver,1,23,4,1892.0,40,5,11,2,0,6,0.3,App Push,36257.0,0,1
+CX0186,Mira Joshi,Mumbai,Silver,1,53,5,2664.0,11,5,13,2,0,9,0.146,App Push,62874.0,0,0
+CX0187,Tara Bose,Pune,Silver,1,15,11,2282.0,27,9,8,0,0,8,0.427,Email,134328.0,1,0
+CX0188,Mira Patel,Bengaluru,Silver,1,4,6,2466.0,21,5,16,2,1,10,0.723,Email,79845.0,0,1
+CX0189,Vivaan Reddy,Chennai,Base,0,33,5,886.0,7,7,10,2,0,8,0.364,App Push,14366.0,0,0
+CX0190,Vivaan Khan,Hyderabad,Gold,2,12,11,2527.0,27,9,13,8,0,7,0.16,App Push,190734.0,0,1
+CX0191,Kiara Bose,Pune,Gold,2,36,7,3471.0,29,6,15,5,0,9,0.553,App Push,163530.0,0,0
+CX0192,Pari Rao,Mumbai,Base,0,43,4,586.0,1,4,11,4,0,7,0.33,App Push,6619.0,1,0
+CX0193,Dhruv Mehta,Delhi,Base,0,140,5,617.0,4,3,7,4,1,5,0.745,Email,5624.0,1,0
+CX0194,Pari Patel,Pune,Base,0,25,7,2117.0,10,6,8,1,0,6,0.608,SMS,52894.0,0,1
+CX0195,Navya Das,Pune,Silver,1,13,3,2128.0,29,7,11,3,0,8,0.056,App Push,33140.0,1,0
+CX0196,Kunal Das,Chennai,Silver,1,8,12,2630.0,21,7,26,7,0,10,0.13,App Push,169900.0,0,0
+CX0197,Zoya Verma,Bengaluru,Platinum,3,16,13,5868.0,34,11,29,3,1,6,0.604,WhatsApp,666197.0,0,0
+CX0198,Mira Rao,Chennai,Base,0,32,5,925.0,4,1,3,2,2,6,0.764,Email,15331.0,0,0
+CX0199,Kiara Nair,Chennai,Base,0,27,2,1787.0,6,3,10,2,2,3,0.839,SMS,8941.0,1,0
+CX0200,Aadhya Rao,Bengaluru,Base,0,20,4,799.0,12,4,9,1,0,6,0.541,SMS,10933.0,1,0
+CX0201,Veer Gupta,Bengaluru,Base,0,73,3,367.0,26,9,8,4,0,9,0.194,App Push,2965.0,1,1
+CX0202,Kabir Menon,Delhi,Silver,1,12,9,2020.0,25,5,13,3,0,8,0.228,WhatsApp,97515.0,0,0
+CX0203,Vivaan Sharma,Delhi,Silver,1,4,12,1689.0,12,7,14,3,0,4,0.199,Email,108613.0,0,1
+CX0204,Zoya Das,Chennai,Base,0,7,4,1144.0,6,6,9,0,0,10,0.52,Email,17615.0,0,1
+CX0205,Myra Sharma,Mumbai,Base,0,11,2,1263.0,16,4,7,3,0,5,0.652,SMS,8998.0,0,0
+CX0206,Veer Reddy,Pune,Silver,1,13,7,2820.0,20,4,12,4,0,4,0.367,WhatsApp,98769.0,0,0
+CX0207,Ananya Pillai,Chennai,Gold,2,98,7,3128.0,26,9,22,3,1,5,0.908,SMS,95587.0,1,1
+CX0208,Tara Khan,Bengaluru,Base,0,28,3,967.0,30,7,8,0,0,7,0.203,App Push,9356.0,1,1
+CX0209,Pari Iyer,Mumbai,Silver,1,13,7,1847.0,16,8,23,2,1,9,0.566,SMS,70344.0,0,0
+CX0210,Anika Joshi,Delhi,Gold,2,90,9,3069.0,34,11,12,5,2,5,0.123,WhatsApp,131635.0,1,1
+CX0211,Zoya Sharma,Hyderabad,Silver,1,25,5,3231.0,26,10,10,3,0,7,0.472,SMS,84546.0,0,0
+CX0212,Riya Sharma,Chennai,Base,0,53,1,681.0,16,8,12,5,1,7,0.389,App Push,2212.0,0,1
+CX0213,Diya Khan,Mumbai,Silver,1,24,5,1371.0,33,6,13,4,0,7,0.396,WhatsApp,35392.0,0,0
+CX0214,Sai Rao,Delhi,Gold,2,94,6,3483.0,39,7,15,4,2,10,0.219,WhatsApp,120345.0,0,0
+CX0215,Krishna Patel,Hyderabad,Platinum,3,37,5,5200.0,39,10,27,6,0,10,0.086,Email,223811.0,1,0
+CX0216,Aryan Patel,Pune,Base,0,36,3,1069.0,27,4,8,2,0,8,0.537,Email,10190.0,0,0
+CX0217,Nisha Joshi,Hyderabad,Silver,1,24,8,2217.0,10,10,12,2,0,5,0.223,App Push,90340.0,1,0
+CX0218,Rohan Rao,Hyderabad,Silver,1,17,7,2510.0,27,8,9,3,0,10,0.45,WhatsApp,94663.0,0,1
+CX0219,Kiara Nair,Mumbai,Gold,2,28,11,2400.0,35,5,21,3,0,6,0.429,App Push,183927.0,0,0
+CX0220,Navya Mehta,Bengaluru,Base,0,38,6,629.0,20,6,13,1,1,9,0.679,SMS,12969.0,1,0
+CX0221,Navya Joshi,Mumbai,Platinum,3,55,14,5580.0,37,14,27,6,1,4,0.18,Email,625376.0,1,0
+CX0222,Ananya Mehta,Delhi,Silver,1,27,6,2405.0,33,5,15,0,0,7,0.086,App Push,76910.0,1,0
+CX0223,Aarav Das,Delhi,Silver,1,6,7,2149.0,22,10,15,3,0,3,0.305,WhatsApp,73192.0,0,1
+CX0224,Myra Joshi,Bengaluru,Silver,1,34,3,2581.0,16,5,11,2,1,2,0.374,WhatsApp,32180.0,1,0
+CX0225,Diya Patel,Chennai,Silver,1,4,4,2915.0,17,5,16,1,4,5,0.303,SMS,61133.0,0,1
+CX0226,Vihaan Sharma,Pune,Gold,2,6,6,3018.0,37,13,16,4,0,8,0.39,App Push,127028.0,0,1
+CX0227,Yash Das,Hyderabad,Silver,1,3,9,1929.0,23,14,9,3,0,8,0.254,Email,93396.0,1,0
+CX0228,Mira Pillai,Mumbai,Silver,1,9,5,2698.0,20,5,21,4,0,4,0.168,App Push,69624.0,0,0
+CX0229,Krishna Khan,Hyderabad,Base,0,31,3,631.0,1,9,10,2,0,6,0.782,App Push,6450.0,0,0
+CX0230,Kunal Verma,Bengaluru,Silver,1,77,7,1890.0,36,10,19,3,1,5,0.411,WhatsApp,53783.0,1,0
+CX0231,Ananya Joshi,Chennai,Gold,2,41,6,3303.0,28,10,23,6,0,8,0.333,Email,124418.0,0,0
+CX0232,Ananya Bose,Hyderabad,Gold,2,35,9,3808.0,34,11,26,5,0,10,0.405,Email,219892.0,0,1
+CX0233,Ananya Mehta,Bengaluru,Base,0,58,4,950.0,2,3,8,1,0,6,0.151,App Push,9345.0,1,0
+CX0234,Reyansh Patel,Pune,Base,0,21,4,1361.0,9,7,11,1,2,6,0.819,Email,17542.0,0,0
+CX0235,Aditya Gupta,Delhi,Base,0,48,5,120.0,14,6,13,0,0,5,0.327,App Push,1811.0,0,0
+CX0236,Saanvi Mehta,Bengaluru,Silver,1,3,7,2600.0,37,8,15,6,0,7,0.523,SMS,99875.0,0,1
+CX0237,Yash Pillai,Bengaluru,Platinum,3,19,12,5388.0,25,12,24,7,0,10,0.206,WhatsApp,563274.0,0,0
+CX0238,Ananya Das,Delhi,Base,0,2,9,965.0,14,5,8,2,1,7,0.6,WhatsApp,31988.0,0,1
+CX0239,Saanvi Sharma,Bengaluru,Base,0,125,3,463.0,13,2,11,2,2,4,0.502,App Push,2667.0,1,0
+CX0240,Aryan Khan,Chennai,Base,0,26,2,1237.0,8,3,12,0,1,6,0.763,SMS,8340.0,1,1
+CX0241,Mira Khan,Bengaluru,Silver,1,7,9,3199.0,40,12,11,2,0,7,0.806,WhatsApp,161369.0,0,0
+CX0242,Kiara Sharma,Chennai,Silver,1,1,6,2549.0,11,6,17,1,1,8,0.219,WhatsApp,84327.0,0,1
+CX0243,Reyansh Reddy,Mumbai,Base,0,25,2,962.0,29,4,3,1,1,9,0.566,App Push,6815.0,0,1
+CX0244,Tara Sharma,Bengaluru,Silver,1,4,6,2373.0,9,5,16,3,1,6,0.326,App Push,73543.0,1,0
+CX0245,Rohan Mehta,Pune,Base,0,34,1,693.0,11,4,2,2,2,4,0.236,App Push,2227.0,1,0
+CX0246,Yash Gupta,Pune,Gold,2,84,8,4023.0,36,7,20,6,0,8,0.32,SMS,173631.0,1,0
+CX0247,Anika Bose,Delhi,Platinum,3,98,6,4652.0,39,7,18,4,1,5,0.063,App Push,164369.0,0,0
+CX0248,Navya Iyer,Hyderabad,Base,0,42,1,911.0,18,5,17,5,1,6,0.504,App Push,2691.0,0,1
+CX0249,Krishna Verma,Delhi,Base,0,51,3,1013.0,15,8,6,1,2,3,0.232,App Push,7838.0,0,0
+CX0250,Navya Mehta,Chennai,Silver,1,6,3,2095.0,22,6,14,0,1,7,0.549,Email,33007.0,0,1
+CX0251,Reyansh Verma,Mumbai,Base,0,15,4,1501.0,1,5,8,3,1,4,0.775,Email,19491.0,0,1
+CX0252,Dhruv Patel,Delhi,Platinum,3,13,20,5259.0,27,17,15,6,0,8,0.046,App Push,927252.0,0,0
+CX0253,Kabir Verma,Chennai,Silver,1,83,7,2846.0,15,2,20,6,0,5,0.45,WhatsApp,63943.0,0,0
+CX0254,Reyansh Rao,Bengaluru,Silver,1,156,4,2383.0,34,4,18,6,1,6,0.148,WhatsApp,24189.0,1,0
+CX0255,Myra Iyer,Mumbai,Silver,1,19,2,1718.0,34,5,8,6,3,4,0.807,SMS,17712.0,0,1
+CX0256,Ishaan Bose,Mumbai,Silver,1,13,3,2044.0,35,3,8,5,0,10,0.498,SMS,31069.0,0,1
+CX0257,Veer Pillai,Pune,Silver,1,8,9,2800.0,4,11,17,1,1,6,0.272,Email,134051.0,0,1
+CX0258,Riya Rao,Pune,Silver,1,23,7,1186.0,18,8,10,2,0,7,0.114,SMS,39050.0,0,0
+CX0259,Kunal Nair,Mumbai,Platinum,3,138,13,5204.0,19,9,18,3,0,6,0.069,SMS,324378.0,1,0
+CX0260,Zoya Bose,Hyderabad,Platinum,3,35,7,5150.0,27,14,20,6,1,7,0.653,Email,291251.0,0,0
+CX0261,Aarav Rao,Delhi,Base,0,54,4,404.0,8,8,6,4,2,8,0.606,Email,4010.0,1,0
+CX0262,Aditya Mehta,Delhi,Silver,1,1,6,2164.0,19,6,15,5,1,9,0.489,SMS,70949.0,0,1
+CX0263,Aditya Menon,Mumbai,Silver,1,21,2,1640.0,1,8,10,4,1,4,0.087,App Push,14522.0,1,0
+CX0264,Ishaan Patel,Hyderabad,Silver,1,60,10,2854.0,33,6,14,3,1,5,0.624,App Push,136183.0,0,0
+CX0265,Dhruv Khan,Mumbai,Silver,1,90,6,3383.0,12,5,15,3,2,10,0.127,App Push,65073.0,0,0
+CX0266,Kunal Nair,Pune,Platinum,3,164,10,4890.0,41,11,20,5,0,4,0.327,App Push,206948.0,1,0
+CX0267,Riya Joshi,Hyderabad,Base,0,121,1,1304.0,1,10,11,6,0,4,0.206,App Push,2731.0,1,0
+CX0268,Kabir Das,Mumbai,Silver,1,17,6,2587.0,20,5,14,2,1,8,0.422,WhatsApp,82153.0,0,0
+CX0269,Vivaan Pillai,Hyderabad,Platinum,3,36,12,5178.0,33,13,15,2,0,8,0.153,Email,537806.0,0,0
+CX0270,Krishna Pillai,Delhi,Gold,2,11,7,3416.0,56,8,22,5,0,9,0.387,App Push,171072.0,0,1
+CX0271,Sai Reddy,Bengaluru,Platinum,3,40,19,5166.0,61,4,23,7,2,3,0.632,WhatsApp,839004.0,0,1
+CX0272,Vivaan Rao,Hyderabad,Base,0,17,3,251.0,6,6,16,2,1,3,0.787,App Push,2318.0,0,0
+CX0273,Ananya Khan,Chennai,Silver,1,28,4,2431.0,23,5,17,3,0,4,0.291,SMS,38868.0,0,1
+CX0274,Myra Patel,Mumbai,Silver,1,139,3,1386.0,22,2,14,3,2,5,0.647,App Push,10808.0,1,0
+CX0275,Sai Verma,Pune,Silver,1,28,9,1529.0,12,5,17,3,1,8,0.105,WhatsApp,70963.0,0,1
+CX0276,Ishaan Joshi,Hyderabad,Base,0,9,3,1536.0,14,3,1,1,0,6,0.722,Email,15844.0,1,0
+CX0277,Tara Khan,Mumbai,Base,0,36,3,569.0,7,1,9,4,0,8,0.527,App Push,4803.0,1,1
+CX0278,Tara Verma,Hyderabad,Gold,2,129,9,3651.0,38,6,18,3,0,7,0.204,App Push,140076.0,0,0
+CX0279,Ishaan Gupta,Bengaluru,Base,0,5,3,120.0,9,4,15,5,0,3,0.499,App Push,975.0,0,1
+CX0280,Aadhya Verma,Pune,Gold,2,10,9,4905.0,24,7,24,5,1,6,0.413,SMS,298423.0,0,1
+CX0281,Pari Pillai,Hyderabad,Silver,1,62,5,1690.0,22,3,14,2,1,8,0.106,WhatsApp,37269.0,1,0
+CX0282,Kiara Mehta,Bengaluru,Gold,2,77,7,3090.0,27,7,13,2,0,6,0.708,Email,113963.0,0,1
+CX0283,Kunal Patel,Bengaluru,Base,0,33,4,229.0,17,6,10,2,1,7,0.646,App Push,2955.0,1,0
+CX0284,Nisha Reddy,Delhi,Silver,1,49,8,1974.0,18,9,11,5,0,8,0.22,WhatsApp,70815.0,0,1
+CX0285,Saanvi Rao,Pune,Gold,2,33,11,3381.0,28,5,12,1,1,6,0.261,App Push,237868.0,0,1
+CX0286,Aadhya Gupta,Hyderabad,Base,0,1,2,706.0,7,1,9,2,0,10,0.88,Email,5717.0,0,1
+CX0287,Navya Reddy,Delhi,Platinum,3,163,8,5493.0,36,7,25,6,0,10,0.331,Email,186880.0,1,1
+CX0288,Vivaan Reddy,Hyderabad,Gold,2,1,13,3364.0,29,4,22,5,0,10,0.257,App Push,312996.0,0,1
+CX0289,Aadhya Nair,Chennai,Base,0,1,2,1285.0,21,6,12,3,2,2,0.329,App Push,8780.0,0,1
+CX0290,Vihaan Patel,Bengaluru,Base,0,8,2,1152.0,33,8,6,3,1,7,0.31,Email,9510.0,0,0
+CX0291,Sai Pillai,Chennai,Silver,1,5,6,2368.0,8,6,11,5,0,6,0.927,App Push,73664.0,0,1
+CX0292,Sai Das,Chennai,Gold,2,48,15,4100.0,15,7,14,4,1,7,0.191,App Push,395473.0,0,1
+CX0293,Nisha Patel,Pune,Silver,1,23,6,2273.0,6,7,9,3,0,6,0.48,App Push,69770.0,0,1
+CX0294,Sai Verma,Bengaluru,Silver,1,1,8,2006.0,21,5,5,4,1,7,0.273,Email,85047.0,0,0
+CX0295,Arjun Bose,Pune,Silver,1,1,5,2806.0,24,7,9,5,2,7,0.47,App Push,74269.0,0,0
+CX0296,Vivaan Bose,Delhi,Base,0,1,4,684.0,9,6,10,3,0,9,0.621,WhatsApp,10390.0,0,1
+CX0297,Nisha Menon,Bengaluru,Silver,1,14,8,1594.0,26,9,15,2,1,5,0.222,SMS,66842.0,0,0
+CX0298,Diya Gupta,Mumbai,Base,0,56,5,550.0,5,7,13,0,0,5,0.299,SMS,7432.0,1,1
+CX0299,Reyansh Bose,Pune,Platinum,3,94,12,5237.0,29,11,18,7,2,5,0.276,Email,397497.0,0,0
+CX0300,Aarav Menon,Hyderabad,Base,0,43,3,1051.0,9,7,11,0,0,9,0.247,App Push,10908.0,1,0
+CX0301,Vivaan Rao,Chennai,Silver,1,38,11,2198.0,15,9,16,3,1,6,0.319,WhatsApp,115815.0,0,1
+CX0302,Riya Reddy,Chennai,Silver,1,59,6,2863.0,34,8,14,2,0,8,0.556,Email,78075.0,0,0
+CX0303,Tara Sharma,Mumbai,Gold,2,24,7,4035.0,25,12,26,4,0,5,0.092,Email,194463.0,0,1
+CX0304,Nisha Gupta,Bengaluru,Base,0,104,3,542.0,21,5,7,2,0,9,0.628,Email,3599.0,1,0
+CX0305,Veer Sharma,Mumbai,Silver,1,120,6,2450.0,20,11,12,2,0,4,0.194,App Push,38841.0,1,0
+CX0306,Rohan Verma,Chennai,Base,0,46,5,784.0,42,2,10,3,0,7,0.349,SMS,12379.0,0,1
+CX0307,Aryan Patel,Chennai,Silver,1,44,6,1905.0,17,8,17,2,1,6,0.555,WhatsApp,53557.0,0,0
+CX0308,Rohan Das,Hyderabad,Silver,1,3,11,1232.0,15,10,11,3,0,7,0.349,Email,74469.0,0,0
+CX0309,Navya Nair,Chennai,Gold,2,181,12,3668.0,18,14,16,9,1,10,0.209,App Push,141084.0,1,0
+CX0310,Veer Reddy,Hyderabad,Base,0,82,3,618.0,9,3,15,3,1,4,0.742,App Push,4039.0,1,0
+CX0311,Veer Menon,Delhi,Platinum,3,20,13,4638.0,34,8,20,3,0,10,0.089,App Push,530615.0,0,0
+CX0312,Sai Joshi,Delhi,Base,0,11,1,959.0,19,6,17,1,0,5,0.212,Email,3948.0,1,0
+CX0313,Pari Khan,Pune,Base,0,9,1,782.0,9,1,6,2,0,6,0.503,App Push,3174.0,1,0
+CX0314,Pari Reddy,Mumbai,Base,0,22,2,1773.0,19,8,4,2,0,7,0.676,SMS,13121.0,0,1
+CX0315,Vivaan Rao,Pune,Base,0,69,1,1398.0,14,6,6,3,0,6,0.204,Email,3449.0,1,0
+CX0316,Diya Mehta,Pune,Platinum,3,5,13,5126.0,19,7,14,6,0,9,0.565,WhatsApp,587019.0,0,1
+CX0317,Navya Mehta,Delhi,Silver,1,16,4,1879.0,24,5,9,1,1,4,0.806,Email,36147.0,0,1
+CX0318,Aditya Iyer,Hyderabad,Silver,1,34,13,2855.0,24,5,11,3,0,8,0.266,Email,196250.0,0,1
+CX0319,Diya Reddy,Pune,Silver,1,22,4,1685.0,24,5,5,2,1,10,0.734,App Push,34082.0,0,0
+CX0320,Diya Reddy,Mumbai,Gold,2,24,6,2993.0,25,8,15,7,2,6,0.361,WhatsApp,104976.0,0,0
+CX0321,Vivaan Gupta,Chennai,Silver,1,31,8,1842.0,32,5,14,4,0,6,0.202,WhatsApp,71809.0,1,0
+CX0322,Arjun Sharma,Pune,Base,0,9,1,1502.0,10,1,10,3,0,4,0.24,WhatsApp,5560.0,1,1
+CX0323,Aditya Rao,Mumbai,Gold,2,142,10,3927.0,28,7,18,4,1,6,0.041,App Push,137423.0,1,0
+CX0324,Rohan Das,Pune,Base,0,1,1,788.0,25,5,4,0,0,8,0.662,App Push,3379.0,0,0
+CX0325,Krishna Pillai,Pune,Base,0,44,3,1413.0,18,7,6,3,2,6,0.409,App Push,12580.0,1,0
+CX0326,Dhruv Iyer,Mumbai,Base,0,64,3,278.0,15,5,10,0,1,5,0.162,Email,2305.0,1,0
+CX0327,Sai Nair,Hyderabad,Gold,2,134,7,4027.0,36,9,18,5,1,8,0.147,Email,99803.0,1,0
+CX0328,Sai Verma,Chennai,Silver,1,4,8,1835.0,23,6,10,4,4,4,0.746,App Push,72709.0,1,0
+CX0329,Veer Nair,Chennai,Gold,2,30,7,4097.0,34,8,19,1,0,10,0.396,WhatsApp,204167.0,0,0
+CX0330,Veer Gupta,Bengaluru,Gold,2,84,10,3761.0,54,11,10,1,0,7,0.284,Email,220255.0,0,1
+CX0331,Nisha Mehta,Hyderabad,Silver,1,23,3,1857.0,27,8,10,6,0,5,0.209,Email,24361.0,0,1
+CX0332,Sai Bose,Pune,Base,0,17,5,242.0,24,2,7,1,1,7,0.547,App Push,4265.0,0,0
+CX0333,Rohan Reddy,Bengaluru,Base,0,3,1,443.0,17,4,13,3,0,4,0.219,App Push,1667.0,1,1
+CX0334,Ishaan Verma,Delhi,Silver,1,131,7,2846.0,24,4,11,2,0,6,0.326,Email,58061.0,1,0
+CX0335,Aryan Verma,Delhi,Platinum,3,68,15,6068.0,30,13,17,8,3,4,0.097,App Push,666616.0,1,0
+CX0336,Ishaan Iyer,Chennai,Base,0,67,1,832.0,13,4,13,1,1,6,0.868,Email,2252.0,1,1
+CX0337,Pari Bose,Delhi,Gold,2,99,5,3285.0,24,9,19,3,0,2,0.212,Email,67167.0,1,0
+CX0338,Reyansh Sharma,Hyderabad,Platinum,3,143,13,5224.0,52,9,24,7,0,9,0.169,SMS,362405.0,0,0
+CX0339,Ananya Bose,Chennai,Silver,1,11,4,1994.0,16,9,13,3,0,3,0.307,WhatsApp,40476.0,0,1
+CX0340,Rohan Rao,Mumbai,Base,0,44,4,1233.0,14,4,9,2,0,6,0.194,SMS,13104.0,0,0
+CX0341,Anika Pillai,Delhi,Base,0,89,3,218.0,11,7,14,1,2,4,0.502,Email,1331.0,1,0
+CX0342,Kabir Khan,Mumbai,Base,0,14,2,744.0,18,5,22,1,1,10,0.783,App Push,5586.0,0,0
+CX0343,Nisha Khan,Chennai,Base,0,64,2,498.0,23,3,6,0,1,3,0.482,SMS,2909.0,1,0
+CX0344,Kiara Joshi,Delhi,Silver,1,51,5,2160.0,18,9,16,1,0,7,0.375,Email,44700.0,0,1
+CX0345,Tara Patel,Delhi,Platinum,3,37,14,5178.0,32,15,22,3,1,8,0.254,Email,613162.0,1,1
+CX0346,Navya Reddy,Hyderabad,Silver,1,5,3,1654.0,12,8,11,4,1,8,0.384,WhatsApp,26160.0,0,1
+CX0347,Vihaan Reddy,Bengaluru,Base,0,1,5,1170.0,3,8,9,1,0,7,0.258,App Push,21708.0,0,1
+CX0348,Navya Joshi,Mumbai,Silver,1,24,6,2167.0,26,8,6,5,0,6,0.286,Email,66776.0,0,1
+CX0349,Rohan Mehta,Chennai,Gold,2,11,11,3107.0,30,11,20,7,1,6,0.312,App Push,238300.0,1,1
+CX0350,Zoya Iyer,Hyderabad,Base,0,96,3,120.0,15,6,6,3,2,4,0.502,SMS,717.0,1,0
+CX0351,Yash Joshi,Pune,Base,0,2,2,163.0,19,4,14,0,1,5,0.634,App Push,1271.0,0,1
+CX0352,Mira Patel,Pune,Gold,2,65,8,3474.0,29,5,18,2,0,6,0.498,Email,151706.0,1,1
+CX0353,Aditya Sharma,Delhi,Silver,1,7,8,2711.0,25,7,15,2,0,9,0.401,App Push,118871.0,0,1
+CX0354,Rohan Pillai,Chennai,Platinum,3,11,13,4043.0,41,9,16,4,0,8,0.244,App Push,460467.0,0,1
+CX0355,Anika Patel,Pune,Base,0,37,3,908.0,13,5,12,3,3,5,0.682,WhatsApp,8506.0,0,0
+CX0356,Pari Pillai,Delhi,Base,0,7,1,1136.0,10,5,15,1,0,7,0.559,WhatsApp,5174.0,0,1
+CX0357,Saanvi Nair,Mumbai,Base,0,27,3,1261.0,21,5,7,2,1,4,0.432,App Push,13197.0,0,1
+CX0358,Zoya Das,Mumbai,Platinum,3,26,12,5501.0,37,14,22,5,0,8,0.211,Email,581701.0,0,1
+CX0359,Arjun Khan,Bengaluru,Base,0,3,0,1327.0,2,6,8,2,1,5,0.879,WhatsApp,1075.0,0,1
+CX0360,Ishaan Bose,Chennai,Gold,2,19,9,3848.0,28,5,16,4,0,10,0.158,Email,240112.0,0,0
+CX0361,Aarav Bose,Bengaluru,Silver,1,30,5,2166.0,23,7,11,4,0,6,0.323,App Push,51030.0,0,1
+CX0362,Dhruv Joshi,Bengaluru,Silver,1,2,4,2288.0,1,8,15,2,2,4,0.284,SMS,44406.0,0,1
+CX0363,Kabir Reddy,Pune,Base,0,8,2,1105.0,28,5,12,4,1,9,0.252,App Push,8608.0,1,1
+CX0364,Aadhya Bose,Pune,Base,0,49,6,986.0,14,5,14,3,0,3,0.848,WhatsApp,15729.0,1,1
+CX0365,Mira Joshi,Hyderabad,Base,0,5,4,363.0,20,6,6,3,0,5,0.279,Email,5233.0,0,0
+CX0366,Mira Bose,Pune,Base,0,22,1,496.0,37,1,12,1,0,3,0.242,App Push,1902.0,0,0
+CX0367,Anika Bose,Delhi,Base,0,113,5,522.0,11,7,7,1,0,6,0.91,App Push,5244.0,1,1
+CX0368,Riya Mehta,Delhi,Base,0,27,0,1834.0,31,1,11,3,2,2,0.783,Email,1074.0,1,1
+CX0369,Kabir Gupta,Pune,Silver,1,52,6,2422.0,15,5,14,4,1,8,0.598,App Push,62138.0,0,0
+CX0370,Yash Patel,Bengaluru,Silver,1,2,3,2470.0,18,8,6,2,1,6,0.475,Email,39245.0,0,1
+CX0371,Navya Bose,Delhi,Silver,1,53,4,2629.0,15,3,17,0,1,7,0.108,App Push,43023.0,0,0
+CX0372,Veer Reddy,Bengaluru,Gold,2,1,5,3320.0,20,7,18,4,0,10,0.309,App Push,119873.0,0,1
+CX0373,Aadhya Mehta,Pune,Silver,1,54,4,2025.0,21,11,21,5,1,6,0.209,Email,35143.0,0,0
+CX0374,Tara Reddy,Bengaluru,Base,0,35,1,885.0,3,7,13,1,1,3,0.616,App Push,2892.0,0,1
+CX0375,Sai Iyer,Chennai,Base,0,54,4,1328.0,18,5,13,1,0,7,0.2,App Push,15957.0,0,0
+CX0376,Rohan Bose,Pune,Base,0,31,1,799.0,18,3,8,2,0,7,0.575,App Push,3149.0,0,0
+CX0377,Kabir Joshi,Delhi,Silver,1,25,5,2874.0,18,2,17,7,0,5,0.73,App Push,65924.0,1,0
+CX0378,Diya Bose,Hyderabad,Silver,1,12,2,1866.0,28,8,16,7,0,8,0.317,App Push,19983.0,0,0
+CX0379,Ishaan Iyer,Delhi,Base,0,17,3,328.0,8,8,10,4,1,3,0.628,Email,2958.0,1,1
+CX0380,Tara Patel,Pune,Platinum,3,13,17,5448.0,38,10,17,4,0,10,0.143,Email,818587.0,0,1
+CX0381,Veer Reddy,Hyderabad,Base,0,13,5,1186.0,12,4,7,3,0,7,0.423,Email,21554.0,0,1
+CX0382,Kabir Mehta,Chennai,Gold,2,9,9,3219.0,16,8,22,6,1,10,0.437,SMS,203981.0,0,0
+CX0383,Aditya Nair,Hyderabad,Base,0,4,4,241.0,7,5,14,0,2,3,0.679,App Push,3474.0,0,0
+CX0384,Saanvi Bose,Mumbai,Platinum,3,53,15,5153.0,40,13,16,6,0,5,0.066,SMS,622284.0,1,1
+CX0385,Riya Bose,Mumbai,Gold,2,10,8,4753.0,36,9,15,2,0,7,0.717,Email,268616.0,0,0
+CX0386,Reyansh Gupta,Bengaluru,Base,0,3,4,120.0,19,10,7,3,0,4,0.546,Email,1735.0,0,0
+CX0387,Reyansh Nair,Hyderabad,Silver,1,23,3,2917.0,4,4,9,1,1,9,0.608,Email,45856.0,0,0
+CX0388,Anika Mehta,Mumbai,Silver,1,20,6,2171.0,10,13,13,4,0,2,0.489,App Push,62487.0,1,0
+CX0389,Dhruv Sharma,Hyderabad,Silver,1,13,8,2877.0,20,7,11,4,0,7,0.281,App Push,120678.0,0,0
+CX0390,Ananya Bose,Chennai,Base,0,2,3,449.0,25,11,12,2,0,5,0.42,App Push,5301.0,0,0
+CX0391,Ananya Iyer,Mumbai,Silver,1,122,6,1118.0,21,9,13,3,1,8,0.447,SMS,19614.0,1,0
+CX0392,Pari Patel,Pune,Base,0,16,6,1085.0,13,6,11,3,1,4,0.649,App Push,19745.0,1,1
+CX0393,Diya Verma,Mumbai,Base,0,61,6,1120.0,25,9,8,1,2,4,0.769,App Push,18678.0,0,0
+CX0394,Anika Joshi,Hyderabad,Gold,2,11,12,3455.0,26,14,21,4,0,3,0.652,WhatsApp,291801.0,0,1
+CX0395,Kunal Gupta,Delhi,Silver,1,119,10,2502.0,21,10,12,6,2,6,0.53,Email,68729.0,0,1
+CX0396,Myra Khan,Delhi,Base,0,11,3,120.0,25,9,9,2,0,6,0.798,SMS,1307.0,1,1
+CX0397,Nisha Verma,Mumbai,Base,0,14,4,1289.0,18,8,10,1,1,4,0.434,App Push,18373.0,0,0
+CX0398,Aditya Joshi,Hyderabad,Gold,2,22,17,3556.0,35,14,16,7,0,7,0.177,App Push,414081.0,1,0
+CX0399,Aditya Verma,Pune,Base,0,34,1,1129.0,17,10,14,2,0,7,0.405,Email,4301.0,1,0
+CX0400,Diya Rao,Bengaluru,Base,0,31,4,1447.0,17,5,11,0,0,7,0.788,Email,18194.0,1,1
+CX0401,Mira Rao,Delhi,Silver,1,1,2,3596.0,13,9,14,6,1,8,0.709,App Push,37116.0,0,1
+CX0402,Dhruv Sharma,Chennai,Gold,2,22,11,3269.0,25,7,28,7,0,7,0.059,Email,246948.0,0,0
+CX0403,Diya Bose,Pune,Base,0,40,3,1154.0,16,2,14,2,2,7,0.505,WhatsApp,11150.0,1,0
+CX0404,Kiara Patel,Pune,Gold,2,106,11,3971.0,14,6,20,5,0,5,0.271,SMS,178180.0,0,0
+CX0405,Arjun Menon,Pune,Base,0,1,2,120.0,1,7,9,0,0,9,0.272,App Push,932.0,0,0
+CX0406,Diya Menon,Hyderabad,Silver,1,55,5,2020.0,8,8,15,5,0,6,0.475,WhatsApp,43461.0,0,1
+CX0407,Vihaan Sharma,Chennai,Base,0,28,5,1269.0,8,6,7,1,1,5,0.876,App Push,20230.0,0,0
+CX0408,Mira Sharma,Bengaluru,Silver,1,70,3,1776.0,34,8,10,4,5,3,0.544,WhatsApp,17039.0,1,1
+CX0409,Anika Reddy,Mumbai,Silver,1,26,3,2391.0,12,10,11,2,0,6,0.297,App Push,36737.0,0,0
+CX0410,Ananya Reddy,Hyderabad,Silver,1,71,7,1406.0,38,9,12,2,0,4,0.521,App Push,38469.0,0,0
+CX0411,Mira Reddy,Bengaluru,Silver,1,21,4,2142.0,40,12,15,2,0,10,0.597,App Push,45123.0,0,0
+CX0412,Dhruv Verma,Chennai,Base,0,11,1,713.0,20,6,11,5,1,8,0.55,App Push,2625.0,0,0
+CX0413,Vihaan Menon,Pune,Platinum,3,68,13,5506.0,33,9,22,5,0,5,0.144,App Push,530704.0,0,0
+CX0414,Zoya Gupta,Chennai,Base,0,6,2,333.0,7,8,16,4,0,9,0.485,App Push,2664.0,0,1
+CX0415,Navya Sharma,Pune,Base,0,6,2,397.0,24,5,13,1,1,3,0.322,SMS,3024.0,0,0
+CX0416,Arjun Joshi,Mumbai,Gold,2,37,8,3284.0,47,4,26,1,0,5,0.295,SMS,180726.0,0,1
+CX0417,Pari Das,Bengaluru,Gold,2,10,11,3248.0,37,5,15,7,0,8,0.067,App Push,253415.0,0,1
+CX0418,Saanvi Iyer,Chennai,Base,0,67,7,819.0,14,3,12,4,0,8,0.67,App Push,13210.0,1,0
+CX0419,Arjun Sharma,Hyderabad,Silver,1,37,5,2332.0,16,8,8,4,0,9,0.783,WhatsApp,54789.0,1,0
+CX0420,Zoya Gupta,Pune,Silver,1,32,3,3277.0,29,9,11,2,2,5,0.626,WhatsApp,49693.0,0,1
+CX0421,Navya Mehta,Chennai,Silver,1,1,11,2586.0,24,6,12,2,1,8,0.436,Email,154452.0,0,0
+CX0422,Saanvi Verma,Chennai,Base,0,9,6,1064.0,24,5,14,2,1,6,0.617,App Push,22995.0,1,0
+CX0423,Sai Patel,Pune,Gold,2,40,12,3239.0,27,11,21,3,0,10,0.249,Email,259260.0,0,1
+CX0424,Veer Bose,Hyderabad,Silver,1,65,4,3199.0,26,7,21,3,1,5,0.553,App Push,48679.0,1,1
+CX0425,Navya Mehta,Delhi,Base,0,16,4,1158.0,8,5,7,2,1,5,0.086,SMS,15164.0,1,1
+CX0426,Myra Iyer,Chennai,Base,0,106,1,1031.0,18,8,13,1,0,5,0.35,App Push,2468.0,1,1
+CX0427,Arjun Bose,Pune,Gold,2,16,13,3693.0,37,12,20,4,4,6,0.126,Email,334768.0,0,1
+CX0428,Myra Verma,Delhi,Base,0,8,3,670.0,11,2,5,1,1,6,0.283,Email,7257.0,0,1
+CX0429,Saanvi Iyer,Mumbai,Platinum,3,11,15,4444.0,49,13,29,2,1,8,0.12,App Push,583589.0,0,0
+CX0430,Vivaan Rao,Bengaluru,Gold,2,23,9,3401.0,36,7,19,0,1,6,0.09,App Push,217596.0,0,0
+CX0431,Anika Nair,Chennai,Base,0,7,3,1083.0,14,10,8,1,1,8,0.723,WhatsApp,11889.0,1,1
+CX0432,Tara Das,Bengaluru,Base,0,66,1,1727.0,1,7,18,1,0,4,0.403,SMS,4598.0,1,0
+CX0433,Rohan Verma,Mumbai,Base,0,11,3,1099.0,23,2,9,1,2,7,0.663,WhatsApp,12478.0,0,0
+CX0434,Nisha Verma,Delhi,Silver,1,23,9,3063.0,8,7,18,1,0,5,0.155,App Push,137704.0,0,0
+CX0435,Ananya Reddy,Bengaluru,Base,0,23,2,1251.0,24,6,8,2,0,9,0.224,App Push,9565.0,0,0
+CX0436,Vivaan Khan,Chennai,Base,0,53,3,524.0,5,4,6,3,0,8,0.647,App Push,4568.0,0,1
+CX0437,Aryan Mehta,Delhi,Silver,1,4,9,2249.0,16,5,20,6,0,10,0.432,Email,109171.0,0,1
+CX0438,Yash Rao,Chennai,Base,0,32,3,1113.0,14,2,10,1,0,10,0.163,App Push,11323.0,1,1
+CX0439,Kabir Iyer,Mumbai,Base,0,73,2,1056.0,29,6,8,0,1,4,0.556,App Push,5253.0,1,0
+CX0440,Krishna Verma,Delhi,Base,0,2,2,1140.0,12,7,7,6,2,2,0.77,SMS,7476.0,1,1
+CX0441,Aarav Iyer,Pune,Silver,1,29,3,2494.0,13,5,9,4,2,6,0.673,App Push,33251.0,1,1
+CX0442,Dhruv Bose,Pune,Silver,1,60,5,2435.0,11,9,14,3,0,6,0.519,Email,49899.0,1,0
+CX0443,Kabir Sharma,Delhi,Base,0,3,3,818.0,15,1,14,2,1,8,0.714,Email,8947.0,0,1
+CX0444,Vihaan Patel,Hyderabad,Silver,1,1,10,1804.0,22,9,10,3,1,7,0.311,WhatsApp,96274.0,0,0
+CX0445,Vihaan Iyer,Chennai,Silver,1,8,6,2281.0,33,7,22,6,2,6,0.471,Email,73178.0,0,1
+CX0446,Diya Reddy,Mumbai,Platinum,3,2,15,5290.0,35,6,15,6,0,4,0.163,App Push,693468.0,0,1
+CX0447,Arjun Pillai,Hyderabad,Platinum,3,97,9,5341.0,41,14,14,7,0,5,0.106,Email,293499.0,0,1
+CX0448,Aarav Joshi,Delhi,Silver,1,31,1,2416.0,8,9,9,6,0,5,0.291,WhatsApp,12098.0,0,0
+CX0449,Vivaan Pillai,Hyderabad,Base,0,11,2,732.0,21,3,19,4,1,5,0.892,SMS,5365.0,1,0
+CX0450,Kabir Mehta,Bengaluru,Base,0,35,3,927.0,20,14,8,2,0,4,0.295,SMS,9486.0,1,0
+CX0451,Aryan Gupta,Mumbai,Silver,1,61,11,1796.0,28,4,13,3,0,3,0.661,Email,87064.0,0,1
+CX0452,Yash Reddy,Mumbai,Silver,1,3,3,1965.0,28,7,15,5,2,4,0.156,SMS,32273.0,0,1
+CX0453,Riya Sharma,Mumbai,Gold,2,8,6,4473.0,40,9,14,2,0,10,0.437,App Push,195815.0,0,0
+CX0454,Riya Sharma,Chennai,Base,0,3,1,475.0,12,4,15,2,3,3,0.611,SMS,1779.0,0,1
+CX0455,Kunal Khan,Delhi,Silver,1,29,4,2142.0,25,6,17,1,1,7,0.263,App Push,43130.0,0,0
+CX0456,Diya Reddy,Hyderabad,Platinum,3,39,8,5999.0,57,15,23,2,0,8,0.302,App Push,417371.0,0,0
+CX0457,Aditya Das,Pune,Base,0,46,4,1411.0,12,6,11,0,0,4,0.309,App Push,14864.0,0,0
+CX0458,Kiara Patel,Mumbai,Silver,1,8,6,2244.0,17,8,24,5,1,10,0.369,SMS,74013.0,0,1
+CX0459,Aryan Sharma,Mumbai,Silver,1,13,5,2748.0,21,6,14,5,1,4,0.458,App Push,70113.0,0,1
+CX0460,Diya Mehta,Hyderabad,Silver,1,65,5,1766.0,9,5,12,5,0,7,0.446,App Push,35892.0,0,0
+CX0461,Reyansh Rao,Mumbai,Gold,2,4,13,4235.0,30,3,21,7,0,7,0.136,SMS,382168.0,0,1
+CX0462,Mira Sharma,Hyderabad,Silver,1,34,7,2557.0,19,7,17,6,2,8,0.27,SMS,79716.0,0,1
+CX0463,Navya Nair,Hyderabad,Base,0,19,5,842.0,34,5,8,2,1,7,0.082,Email,15418.0,0,1
+CX0464,Veer Nair,Bengaluru,Base,0,12,0,580.0,16,6,10,3,0,8,0.771,Email,425.0,0,0
+CX0465,Sai Rao,Chennai,Base,0,30,1,807.0,3,4,11,1,1,5,0.661,Email,3056.0,1,1
+CX0466,Pari Patel,Delhi,Silver,1,33,7,2594.0,32,4,11,3,1,9,0.36,SMS,91998.0,0,1
+CX0467,Aarav Verma,Chennai,Base,0,23,1,805.0,10,1,11,2,0,9,0.248,WhatsApp,2644.0,0,0
+CX0468,Ananya Verma,Pune,Base,0,60,2,781.0,18,3,10,0,1,10,0.574,WhatsApp,5142.0,0,0
+CX0469,Arjun Khan,Hyderabad,Base,0,40,4,1330.0,16,5,14,1,2,7,0.181,Email,16862.0,1,0
+CX0470,Reyansh Gupta,Pune,Silver,1,37,4,2284.0,40,7,8,8,2,4,0.123,App Push,42003.0,0,1
+CX0471,Tara Rao,Hyderabad,Silver,1,28,6,2011.0,42,7,14,3,1,6,0.275,App Push,60256.0,0,0
+CX0472,Reyansh Das,Hyderabad,Base,0,4,4,1484.0,7,5,9,6,2,4,0.512,WhatsApp,19995.0,1,0
+CX0473,Ananya Bose,Pune,Gold,2,39,10,3344.0,23,9,22,2,1,6,0.103,Email,224968.0,0,1
+CX0474,Aryan Rao,Hyderabad,Silver,1,1,3,3617.0,22,6,12,1,4,4,0.403,App Push,56383.0,0,1
+CX0475,Veer Sharma,Mumbai,Base,0,21,4,910.0,3,8,5,4,1,3,0.28,Email,11805.0,0,0
+CX0476,Kiara Mehta,Chennai,Gold,2,77,12,2448.0,32,8,23,1,1,5,0.411,WhatsApp,179844.0,0,0
+CX0477,Aarav Patel,Bengaluru,Gold,2,12,10,3349.0,27,9,12,5,1,4,0.261,Email,231836.0,0,0
+CX0478,Veer Verma,Bengaluru,Silver,1,126,4,2641.0,16,9,19,2,0,4,0.759,SMS,28295.0,1,1
+CX0479,Saanvi Bose,Pune,Base,0,25,4,1067.0,18,3,8,4,1,6,0.107,Email,13543.0,0,0
+CX0480,Reyansh Khan,Bengaluru,Gold,2,3,10,3750.0,33,9,24,4,0,10,0.679,WhatsApp,265932.0,0,0
+CX0481,Aryan Gupta,Hyderabad,Silver,1,37,5,3473.0,28,6,15,1,1,3,0.701,App Push,78300.0,0,1
+CX0482,Diya Das,Pune,Base,0,8,3,1004.0,17,3,15,6,0,9,0.218,App Push,10340.0,0,1
+CX0483,Myra Bose,Mumbai,Silver,1,25,7,2240.0,26,3,12,2,2,2,0.62,Email,75748.0,0,1
+CX0484,Ananya Bose,Chennai,Silver,1,79,1,2521.0,26,5,12,0,0,5,0.616,Email,10315.0,0,0
+CX0485,Riya Das,Bengaluru,Platinum,3,22,11,5246.0,33,8,22,8,1,6,0.327,Email,471326.0,0,0
+CX0486,Aryan Patel,Hyderabad,Silver,1,5,3,2011.0,34,7,12,1,0,8,0.252,App Push,33849.0,1,0
+CX0487,Kunal Verma,Bengaluru,Silver,1,26,4,2528.0,19,5,17,7,2,6,0.129,App Push,44259.0,0,1
+CX0488,Nisha Verma,Delhi,Gold,2,1,10,2980.0,24,6,22,4,2,5,0.649,App Push,206301.0,0,1
+CX0489,Pari Rao,Mumbai,Base,0,188,1,1607.0,22,5,8,1,0,5,0.853,App Push,3289.0,1,0
+CX0490,Aryan Khan,Hyderabad,Silver,1,6,8,1886.0,1,6,11,4,0,6,0.201,App Push,78068.0,1,0
+CX0491,Aadhya Verma,Chennai,Silver,1,19,6,2245.0,18,4,15,5,1,4,0.739,Email,62997.0,0,0
+CX0492,Diya Bose,Pune,Base,0,6,2,606.0,6,3,9,0,2,6,0.357,SMS,4534.0,0,1
+CX0493,Aditya Reddy,Bengaluru,Silver,1,46,5,3398.0,17,7,15,2,1,9,0.523,Email,77159.0,1,1
+CX0494,Aryan Mehta,Bengaluru,Silver,1,27,3,1889.0,21,7,16,8,0,6,0.626,SMS,25521.0,0,1
+CX0495,Anika Pillai,Mumbai,Base,0,26,2,120.0,26,2,8,1,0,8,0.793,SMS,902.0,0,0
+CX0496,Saanvi Pillai,Pune,Base,0,40,5,760.0,4,4,8,4,0,4,0.449,App Push,10717.0,1,0
+CX0497,Sai Bose,Hyderabad,Silver,1,20,4,2491.0,25,7,17,4,0,5,0.619,App Push,48383.0,0,0
+CX0498,Anika Gupta,Pune,Silver,1,29,7,2329.0,22,7,20,3,1,2,0.248,WhatsApp,71936.0,0,0
+CX0499,Ishaan Pillai,Hyderabad,Base,0,67,0,1482.0,12,4,13,3,1,7,0.218,App Push,788.0,0,1
+CX0500,Aditya Joshi,Hyderabad,Base,0,34,2,806.0,23,7,10,2,0,5,0.873,Email,4838.0,1,0
+CX0501,Vivaan Das,Delhi,Silver,1,26,7,1458.0,22,5,10,5,0,7,0.325,App Push,50937.0,0,1
+CX0502,Saanvi Gupta,Delhi,Gold,2,5,9,3527.0,26,6,20,7,0,3,0.05,App Push,202594.0,0,0
+CX0503,Aryan Mehta,Hyderabad,Gold,2,21,7,3609.0,34,5,18,6,2,9,0.283,App Push,169953.0,0,0
+CX0504,Sai Reddy,Delhi,Base,0,18,8,243.0,3,4,8,1,0,5,0.64,WhatsApp,6551.0,1,0
+CX0505,Rohan Rao,Delhi,Base,0,137,3,1554.0,16,3,9,3,2,8,0.653,Email,8491.0,1,0
+CX0506,Kabir Gupta,Bengaluru,Silver,1,66,7,2641.0,25,6,10,4,1,9,0.644,App Push,74142.0,0,0
+CX0507,Arjun Verma,Mumbai,Gold,2,73,14,3188.0,28,8,16,4,2,8,0.598,App Push,277953.0,0,1
+CX0508,Nisha Verma,Mumbai,Base,0,11,2,1083.0,17,1,7,2,1,5,0.469,WhatsApp,8096.0,0,0
+CX0509,Yash Bose,Delhi,Silver,1,9,4,3104.0,30,6,13,0,0,9,0.21,App Push,69540.0,0,0
+CX0510,Kunal Das,Chennai,Silver,1,6,4,2138.0,17,5,8,3,0,6,0.334,Email,45033.0,0,1
+CX0511,Rohan Nair,Pune,Gold,2,128,5,3031.0,33,8,18,5,0,9,0.16,SMS,64118.0,0,0
+CX0512,Vivaan Reddy,Chennai,Gold,2,10,9,3803.0,43,6,27,4,1,3,0.22,Email,229023.0,0,1
+CX0513,Veer Iyer,Bengaluru,Base,0,16,4,120.0,16,3,12,2,1,8,0.401,SMS,1829.0,0,1
+CX0514,Kiara Iyer,Mumbai,Base,0,24,2,1230.0,20,6,11,0,0,7,0.35,App Push,8630.0,0,1
+CX0515,Ananya Rao,Mumbai,Silver,1,5,5,2948.0,16,5,13,2,0,5,0.169,Email,77439.0,0,0
+CX0516,Arjun Khan,Hyderabad,Gold,2,39,9,4743.0,56,6,18,4,1,6,0.527,WhatsApp,286937.0,0,0
+CX0517,Krishna Bose,Delhi,Silver,1,6,5,1924.0,30,3,12,8,0,7,0.526,App Push,51279.0,0,1
+CX0518,Krishna Gupta,Pune,Gold,2,10,12,2996.0,20,6,21,6,1,7,0.381,SMS,249749.0,0,0
+CX0519,Mira Nair,Pune,Platinum,3,41,10,5693.0,44,6,21,2,2,10,0.311,SMS,490726.0,0,1
+CX0520,Arjun Menon,Mumbai,Silver,1,28,7,1788.0,29,8,15,5,0,9,0.506,WhatsApp,64499.0,0,1
+CX0521,Saanvi Iyer,Chennai,Base,0,28,1,352.0,14,4,4,1,0,8,0.471,WhatsApp,1357.0,0,0
+CX0522,Mira Pillai,Delhi,Silver,1,9,4,1543.0,24,5,12,1,1,8,0.125,Email,33053.0,0,0
+CX0523,Ishaan Joshi,Bengaluru,Silver,1,18,5,2550.0,28,8,8,3,1,7,0.587,WhatsApp,66389.0,0,1
+CX0524,Vihaan Bose,Delhi,Silver,1,13,4,1838.0,9,5,14,3,1,7,0.456,Email,35098.0,0,0
+CX0525,Vihaan Mehta,Bengaluru,Silver,1,8,4,2742.0,26,9,21,2,0,7,0.414,App Push,58016.0,0,1
+CX0526,Myra Sharma,Hyderabad,Base,0,75,1,120.0,11,4,8,1,2,3,0.683,App Push,278.0,1,0
+CX0527,Reyansh Joshi,Hyderabad,Platinum,3,25,5,5380.0,49,15,30,6,0,6,0.237,SMS,229649.0,0,1
+CX0528,Mira Menon,Bengaluru,Gold,2,70,11,4058.0,39,11,18,3,0,9,0.344,App Push,269252.0,1,1
+CX0529,Pari Menon,Delhi,Platinum,3,9,15,4971.0,45,6,25,2,1,4,0.293,SMS,648182.0,0,1
+CX0530,Ananya Joshi,Pune,Silver,1,10,5,2491.0,19,10,10,1,0,2,0.205,WhatsApp,62241.0,1,1
+CX0531,Vivaan Sharma,Delhi,Base,0,10,4,1541.0,24,6,6,3,0,7,0.353,Email,22226.0,0,0
+CX0532,Kiara Gupta,Chennai,Silver,1,33,4,2001.0,21,5,8,1,1,4,0.439,Email,39263.0,0,1
+CX0533,Sai Joshi,Bengaluru,Silver,1,59,8,1493.0,34,6,8,3,1,5,0.767,Email,45976.0,1,0
+CX0534,Aditya Bose,Chennai,Base,0,27,6,1463.0,8,6,8,1,1,6,0.539,App Push,26293.0,1,0
+CX0535,Kunal Iyer,Bengaluru,Silver,1,36,8,2681.0,33,5,18,3,1,5,0.178,App Push,100729.0,0,1
+CX0536,Yash Menon,Delhi,Silver,1,19,4,2540.0,1,4,16,3,1,6,0.164,Email,48274.0,1,1
+CX0537,Sai Gupta,Chennai,Gold,2,69,12,4299.0,38,11,21,7,1,9,0.307,SMS,316257.0,1,1
+CX0538,Aadhya Bose,Hyderabad,Platinum,3,86,13,4713.0,32,10,31,6,1,6,0.175,WhatsApp,418961.0,1,1
+CX0539,Sai Bose,Mumbai,Gold,2,47,7,3370.0,12,9,17,6,0,3,0.088,App Push,133091.0,1,0
+CX0540,Mira Nair,Bengaluru,Gold,2,16,9,4327.0,17,4,17,5,2,7,0.298,App Push,259866.0,0,1
+CX0541,Navya Bose,Pune,Gold,2,69,12,3987.0,37,9,25,7,3,6,0.367,WhatsApp,279293.0,0,0
+CX0542,Ishaan Sharma,Chennai,Base,0,1,3,466.0,16,6,14,7,0,6,0.569,SMS,4902.0,0,1
+CX0543,Zoya Verma,Chennai,Silver,1,31,5,1808.0,24,10,15,2,0,7,0.483,WhatsApp,47218.0,0,0
+CX0544,Vihaan Joshi,Delhi,Silver,1,4,7,2466.0,24,4,9,2,0,7,0.605,WhatsApp,95026.0,0,1
+CX0545,Arjun Verma,Mumbai,Silver,1,4,4,1235.0,29,7,14,2,2,8,0.497,WhatsApp,27384.0,0,0
+CX0546,Ishaan Khan,Bengaluru,Silver,1,7,9,3645.0,33,7,13,1,0,9,0.278,WhatsApp,182234.0,0,1
+CX0547,Veer Sharma,Chennai,Gold,2,148,6,3930.0,29,7,14,0,2,5,0.176,WhatsApp,82086.0,1,0
+CX0548,Sai Mehta,Chennai,Platinum,3,45,16,4777.0,14,14,12,3,0,5,0.196,WhatsApp,644586.0,0,0
+CX0549,Navya Reddy,Delhi,Silver,1,23,7,3047.0,19,5,12,4,2,6,0.351,Email,109244.0,0,0
+CX0550,Tara Das,Hyderabad,Gold,2,56,8,3337.0,29,4,19,4,0,8,0.288,Email,146649.0,0,0
+CX0551,Diya Khan,Bengaluru,Base,0,6,2,1541.0,24,5,9,2,0,6,0.369,App Push,10921.0,0,1
+CX0552,Anika Nair,Chennai,Base,0,18,1,1080.0,20,3,11,0,0,3,0.593,SMS,3583.0,1,0
+CX0553,Krishna Gupta,Hyderabad,Base,0,1,3,1122.0,14,7,7,3,1,7,0.891,SMS,12316.0,0,0
+CX0554,Arjun Patel,Bengaluru,Silver,1,38,6,1956.0,30,3,12,1,2,6,0.104,Email,51513.0,1,1
+CX0555,Nisha Menon,Mumbai,Gold,2,6,9,3586.0,34,8,16,3,1,5,0.633,WhatsApp,222202.0,0,0
+CX0556,Mira Patel,Pune,Gold,2,71,17,4353.0,42,13,19,2,2,5,0.137,Email,478979.0,1,1
+CX0557,Myra Rao,Hyderabad,Silver,1,82,7,2885.0,21,8,13,3,1,9,0.115,App Push,85429.0,0,0
+CX0558,Diya Reddy,Bengaluru,Platinum,3,1,7,5127.0,43,13,20,5,1,4,0.018,WhatsApp,309152.0,1,0
+CX0559,Kunal Khan,Chennai,Base,0,21,1,1120.0,2,8,8,3,0,7,0.568,WhatsApp,4413.0,0,0
+CX0560,Reyansh Menon,Delhi,Silver,1,22,5,3321.0,23,8,11,5,0,10,0.169,SMS,89855.0,0,1
+CX0561,Myra Mehta,Mumbai,Silver,1,20,4,1903.0,37,6,5,0,0,8,0.209,App Push,40414.0,1,0
+CX0562,Riya Das,Chennai,Base,0,3,5,1276.0,16,5,6,2,0,9,0.713,WhatsApp,23433.0,0,1
+CX0563,Aarav Menon,Delhi,Base,0,7,3,558.0,5,7,11,0,0,7,0.794,Email,6239.0,0,1
+CX0564,Krishna Das,Chennai,Base,0,42,2,834.0,6,5,6,2,0,7,0.526,SMS,5002.0,0,0
+CX0565,Nisha Reddy,Chennai,Base,0,8,5,799.0,20,5,12,3,0,5,0.288,App Push,13623.0,1,1
+CX0566,Diya Bose,Pune,Base,0,44,2,660.0,13,7,13,2,0,8,0.415,Email,3920.0,1,0
+CX0567,Kiara Verma,Bengaluru,Base,0,75,1,419.0,16,4,6,0,1,10,0.697,SMS,1336.0,1,0
+CX0568,Veer Iyer,Bengaluru,Base,0,4,2,402.0,10,3,14,2,1,10,0.663,Email,3094.0,0,1
+CX0569,Kabir Joshi,Pune,Gold,2,26,9,3590.0,11,13,19,2,0,7,0.597,WhatsApp,219531.0,0,1
+CX0570,Tara Patel,Mumbai,Base,0,42,4,1902.0,31,2,5,3,0,7,0.411,Email,22691.0,0,0
+CX0571,Ananya Patel,Delhi,Silver,1,18,9,1804.0,29,5,26,3,0,8,0.586,WhatsApp,88447.0,0,1
+CX0572,Ananya Nair,Bengaluru,Base,0,63,6,1574.0,8,5,14,4,0,7,0.481,App Push,25075.0,1,1
+CX0573,Yash Iyer,Bengaluru,Gold,2,24,12,4694.0,38,13,16,7,1,8,0.258,Email,393387.0,0,1
+CX0574,Kabir Mehta,Mumbai,Platinum,3,21,15,5471.0,28,9,19,6,0,10,0.057,App Push,716056.0,1,0
+CX0575,Arjun Menon,Bengaluru,Base,0,23,3,1406.0,30,8,10,1,1,10,0.606,App Push,15083.0,0,0
+CX0576,Navya Menon,Pune,Silver,1,61,6,1845.0,31,4,10,1,0,8,0.922,App Push,51176.0,0,0
+CX0577,Navya Khan,Bengaluru,Platinum,3,1,17,4536.0,43,8,32,4,0,9,0.185,Email,676367.0,0,0
+CX0578,Riya Pillai,Pune,Platinum,3,93,19,4897.0,42,16,25,5,0,8,0.037,App Push,702008.0,0,1
+CX0579,Dhruv Joshi,Bengaluru,Silver,1,19,4,2673.0,36,9,14,5,0,6,0.215,Email,52476.0,0,0
+CX0580,Arjun Patel,Mumbai,Gold,2,9,17,3882.0,28,5,17,1,1,4,0.504,App Push,471322.0,0,1
+CX0581,Tara Khan,Pune,Gold,2,24,7,4229.0,29,9,12,5,0,9,0.125,App Push,202357.0,0,0
+CX0582,Rohan Joshi,Mumbai,Gold,2,23,13,4562.0,18,11,13,7,1,2,0.487,Email,388328.0,0,0
+CX0583,Arjun Das,Bengaluru,Base,0,4,2,648.0,14,4,9,2,0,6,0.414,Email,4735.0,0,1
+CX0584,Vivaan Patel,Delhi,Base,0,42,1,1467.0,22,1,7,1,0,7,0.588,App Push,4912.0,1,1
+CX0585,Reyansh Joshi,Pune,Base,0,9,3,1598.0,28,4,10,0,1,6,0.298,App Push,18582.0,0,0
+CX0586,Rohan Khan,Chennai,Base,0,54,0,1135.0,11,1,11,4,0,7,0.521,WhatsApp,641.0,0,1
+CX0587,Kabir Patel,Chennai,Silver,1,83,6,1578.0,18,5,12,3,1,4,0.216,SMS,30032.0,1,0
+CX0588,Aditya Khan,Chennai,Base,0,58,6,1098.0,29,3,14,5,0,3,0.841,App Push,17131.0,0,1
+CX0589,Mira Bose,Pune,Gold,2,136,11,3855.0,32,10,18,6,0,8,0.567,Email,174601.0,1,0
+CX0590,Nisha Khan,Pune,Platinum,3,14,12,4331.0,42,7,29,4,0,7,0.177,WhatsApp,452847.0,0,1
+CX0591,Kabir Rao,Delhi,Base,0,8,4,229.0,3,4,9,1,1,8,0.181,WhatsApp,3205.0,1,1
+CX0592,Saanvi Khan,Pune,Gold,2,98,9,4156.0,5,10,23,5,0,8,0.458,WhatsApp,153226.0,1,0
+CX0593,Anika Pillai,Pune,Base,0,15,0,1232.0,12,4,13,3,0,6,0.361,App Push,860.0,1,0
+CX0594,Aryan Mehta,Delhi,Silver,1,2,0,2241.0,25,7,11,5,0,6,0.304,Email,2584.0,0,0
+CX0595,Ananya Joshi,Delhi,Base,0,18,3,994.0,19,3,10,2,1,6,0.245,App Push,9808.0,0,0
+CX0596,Arjun Patel,Delhi,Base,0,3,2,517.0,21,8,8,4,1,5,0.633,App Push,3833.0,0,1
+CX0597,Tara Patel,Chennai,Base,0,47,1,1038.0,8,9,12,4,1,4,0.65,WhatsApp,2871.0,0,0
+CX0598,Kunal Das,Pune,Gold,2,75,13,4551.0,50,6,10,7,2,5,0.137,Email,319470.0,0,0
+CX0599,Riya Pillai,Chennai,Base,0,14,4,1040.0,17,3,4,1,1,5,0.533,SMS,14335.0,1,0
+CX0600,Ananya Gupta,Hyderabad,Gold,2,20,15,2946.0,13,7,13,3,1,6,0.632,Email,306450.0,0,1
+CX0601,Aryan Das,Hyderabad,Base,0,75,3,712.0,6,4,7,4,1,7,0.33,Email,4987.0,1,0
+CX0602,Ishaan Das,Bengaluru,Base,0,79,2,2066.0,14,10,17,6,1,6,0.131,Email,9348.0,1,0
+CX0603,Reyansh Nair,Hyderabad,Base,0,4,0,1678.0,20,5,6,1,1,8,0.625,WhatsApp,1305.0,1,0
+CX0604,Vivaan Verma,Mumbai,Silver,1,8,7,3067.0,12,5,19,2,0,4,0.595,App Push,108206.0,0,1
+CX0605,Aadhya Bose,Delhi,Gold,2,53,7,3531.0,28,11,12,4,0,6,0.297,WhatsApp,146672.0,0,0
+CX0606,Navya Iyer,Mumbai,Base,0,34,4,1089.0,17,7,6,2,0,6,0.695,Email,15455.0,1,0
+CX0607,Pari Mehta,Chennai,Gold,2,14,13,4217.0,24,9,22,5,0,9,0.28,WhatsApp,388606.0,0,0
+CX0608,Reyansh Rao,Hyderabad,Silver,1,30,6,3213.0,24,3,18,8,2,9,0.511,App Push,91853.0,0,1
+CX0609,Aadhya Gupta,Bengaluru,Platinum,3,17,11,4812.0,51,14,22,9,2,8,0.025,Email,461937.0,0,1
+CX0610,Ananya Bose,Hyderabad,Silver,1,2,6,2347.0,31,5,10,1,0,7,0.766,WhatsApp,75726.0,1,1
+CX0611,Krishna Rao,Mumbai,Silver,1,18,6,1356.0,19,8,22,3,0,2,0.363,WhatsApp,40728.0,0,1
+CX0612,Anika Bose,Delhi,Silver,1,4,10,2276.0,21,9,10,3,0,6,0.45,Email,121546.0,0,1
+CX0613,Sai Das,Chennai,Platinum,3,8,9,4703.0,41,8,25,5,0,8,0.12,App Push,375900.0,0,1
+CX0614,Zoya Sharma,Mumbai,Base,0,22,3,496.0,18,6,7,1,0,7,0.458,App Push,5439.0,1,0
+CX0615,Saanvi Joshi,Chennai,Base,0,22,2,714.0,13,2,9,2,0,2,0.777,App Push,4516.0,0,0
+CX0616,Zoya Gupta,Mumbai,Silver,1,34,3,2998.0,25,2,16,3,1,8,0.589,Email,44149.0,0,1
+CX0617,Reyansh Gupta,Bengaluru,Base,0,20,1,896.0,1,6,12,1,0,9,0.87,SMS,3855.0,0,1
+CX0618,Nisha Mehta,Bengaluru,Silver,1,58,9,1730.0,30,9,9,2,0,9,0.445,Email,72915.0,0,1
+CX0619,Tara Patel,Mumbai,Silver,1,92,7,2829.0,27,7,27,5,1,5,0.435,Email,64068.0,1,1
+CX0620,Arjun Das,Delhi,Base,0,5,2,316.0,14,10,13,1,1,3,0.598,Email,2346.0,1,0
+CX0621,Saanvi Gupta,Bengaluru,Base,0,1,3,1647.0,12,5,12,3,1,7,0.659,Email,18348.0,0,0
+CX0622,Ananya Patel,Chennai,Base,0,5,1,1375.0,15,6,10,2,0,5,0.521,SMS,5719.0,0,1
+CX0623,Kiara Rao,Delhi,Gold,2,111,10,4026.0,42,9,18,3,0,9,0.116,WhatsApp,180140.0,1,0
+CX0624,Aadhya Rao,Delhi,Base,0,11,3,1036.0,17,8,13,1,2,5,0.253,App Push,11399.0,0,0
+CX0625,Aadhya Verma,Mumbai,Base,0,32,2,195.0,17,9,12,4,2,7,0.676,App Push,1157.0,0,0
+CX0626,Aditya Rao,Mumbai,Base,0,32,3,1314.0,1,4,13,2,1,4,0.341,SMS,12448.0,1,0
+CX0627,Mira Khan,Bengaluru,Silver,1,25,9,2158.0,30,14,12,0,0,6,0.352,SMS,101868.0,0,1
+CX0628,Sai Bose,Hyderabad,Base,0,48,0,1826.0,13,3,11,1,2,5,0.48,App Push,1115.0,1,0
+CX0629,Anika Das,Pune,Gold,2,9,9,3834.0,15,10,21,8,1,6,0.287,App Push,228942.0,0,1
+CX0630,Yash Gupta,Mumbai,Base,0,17,3,603.0,10,7,8,1,1,6,0.849,SMS,6147.0,0,0
+CX0631,Kunal Mehta,Hyderabad,Silver,1,3,3,2874.0,13,7,18,1,3,4,0.216,App Push,44239.0,0,0
+CX0632,Aditya Bose,Mumbai,Base,0,1,6,882.0,6,5,9,3,0,10,0.7,Email,19895.0,0,1
+CX0633,Vihaan Das,Hyderabad,Silver,1,34,5,2342.0,12,9,18,4,0,6,0.657,WhatsApp,56781.0,0,1
+CX0634,Anika Joshi,Delhi,Base,0,35,2,1173.0,17,6,10,4,1,7,0.334,App Push,7555.0,0,1
+CX0635,Reyansh Nair,Mumbai,Base,0,11,4,990.0,33,6,8,2,0,3,0.622,App Push,12751.0,0,1
+CX0636,Aditya Joshi,Delhi,Platinum,3,134,9,5028.0,34,11,30,7,0,6,0.049,App Push,229864.0,1,0
+CX0637,Kiara Menon,Pune,Base,0,18,5,918.0,11,6,11,3,1,8,0.717,App Push,16063.0,0,1
+CX0638,Vihaan Verma,Pune,Gold,2,28,15,3866.0,24,7,21,5,0,5,0.263,App Push,399644.0,0,0
+CX0639,Navya Das,Pune,Silver,1,4,6,2786.0,28,9,12,1,1,9,0.633,App Push,90040.0,0,1
+CX0640,Riya Bose,Mumbai,Silver,1,2,5,2883.0,6,6,13,3,2,6,0.249,Email,70604.0,1,0
+CX0641,Aadhya Rao,Bengaluru,Silver,1,17,6,2656.0,18,2,15,5,3,3,0.106,App Push,70810.0,1,1
+CX0642,Dhruv Sharma,Pune,Silver,1,63,3,2090.0,24,5,16,3,0,6,0.117,App Push,25390.0,1,0
+CX0643,Yash Joshi,Pune,Silver,1,120,2,1772.0,17,5,18,2,1,7,0.325,App Push,9961.0,1,0
+CX0644,Reyansh Rao,Hyderabad,Base,0,23,2,1272.0,7,4,10,3,0,4,0.057,WhatsApp,6669.0,0,0
+CX0645,Ananya Das,Bengaluru,Base,0,32,4,787.0,18,9,7,1,0,6,0.485,App Push,10542.0,0,0
+CX0646,Nisha Reddy,Bengaluru,Base,0,22,4,841.0,13,3,5,0,0,4,0.761,App Push,11538.0,1,1
+CX0647,Nisha Khan,Pune,Base,0,11,3,940.0,8,7,6,3,1,6,0.474,WhatsApp,9729.0,0,0
+CX0648,Pari Mehta,Mumbai,Base,0,13,2,758.0,19,5,12,4,0,10,0.397,SMS,5694.0,0,0
+CX0649,Ananya Sharma,Mumbai,Silver,1,71,5,1780.0,30,10,18,3,1,6,0.703,Email,35470.0,1,1
+CX0650,Aadhya Joshi,Delhi,Base,0,72,1,401.0,8,4,16,3,2,3,0.627,App Push,927.0,1,0
+CX0651,Zoya Mehta,Chennai,Gold,2,101,8,4192.0,41,12,8,1,0,6,0.374,App Push,175519.0,1,0
+CX0652,Saanvi Reddy,Pune,Platinum,3,15,7,5243.0,33,11,25,5,0,8,0.186,Email,316642.0,0,0
+CX0653,Zoya Das,Pune,Gold,2,64,8,4172.0,18,4,14,2,1,6,0.12,WhatsApp,184158.0,1,0
+CX0654,Vihaan Mehta,Chennai,Platinum,3,3,17,5844.0,49,10,22,7,1,8,0.051,App Push,877504.0,0,0
+CX0655,Navya Nair,Hyderabad,Silver,1,9,3,2533.0,34,11,14,2,1,4,0.183,SMS,39809.0,0,1
+CX0656,Mira Pillai,Chennai,Base,0,3,3,746.0,1,3,9,2,0,8,0.282,SMS,8387.0,0,0
+CX0657,Myra Patel,Bengaluru,Base,0,132,4,806.0,8,3,7,1,2,7,0.633,WhatsApp,5893.0,1,0
+CX0658,Saanvi Bose,Hyderabad,Base,0,4,2,142.0,19,1,8,4,0,7,0.808,App Push,1048.0,0,1
+CX0659,Kunal Das,Bengaluru,Gold,2,22,9,3666.0,18,12,17,3,0,8,0.373,Email,227617.0,1,1
+CX0660,Aadhya Khan,Hyderabad,Platinum,3,152,12,5551.0,37,9,17,4,0,9,0.4,App Push,341605.0,1,0
+CX0661,Myra Menon,Mumbai,Base,0,14,4,851.0,7,7,8,2,0,10,0.572,SMS,12407.0,0,1
+CX0662,Aarav Patel,Bengaluru,Silver,1,34,3,1466.0,22,3,15,2,1,3,0.793,App Push,18290.0,0,1
+CX0663,Veer Pillai,Pune,Base,0,19,3,1143.0,22,2,16,2,0,3,0.679,App Push,10799.0,0,1
+CX0664,Rohan Pillai,Bengaluru,Silver,1,97,6,2064.0,9,8,11,5,1,6,0.241,Email,39443.0,1,0
+CX0665,Reyansh Das,Mumbai,Base,0,73,3,1004.0,8,4,15,3,0,7,0.598,App Push,6972.0,1,0
+CX0666,Aadhya Khan,Chennai,Gold,2,11,4,3652.0,32,8,30,2,1,6,0.216,App Push,100754.0,0,0
+CX0667,Sai Pillai,Bengaluru,Base,0,11,1,168.0,14,2,10,2,1,8,0.274,Email,685.0,0,0
+CX0668,Anika Rao,Pune,Base,0,22,0,1373.0,1,3,13,2,1,7,0.727,App Push,944.0,1,0
+CX0669,Pari Bose,Bengaluru,Silver,1,78,7,2194.0,28,11,9,5,0,10,0.078,Email,60718.0,0,0
+CX0670,Aarav Bose,Mumbai,Base,0,5,5,367.0,18,7,10,3,1,6,0.137,App Push,6505.0,0,0
+CX0671,Tara Nair,Hyderabad,Silver,1,5,4,2726.0,34,3,9,4,1,8,0.089,Email,59291.0,0,1
+CX0672,Aryan Reddy,Delhi,Platinum,3,14,13,4423.0,48,16,18,9,1,8,0.159,App Push,489453.0,0,0
+CX0673,Ishaan Sharma,Pune,Base,0,3,6,1094.0,25,5,10,2,1,8,0.514,WhatsApp,24233.0,0,0
+CX0674,Diya Khan,Pune,Base,0,20,2,1606.0,5,3,10,2,0,9,0.689,Email,11527.0,0,0
+CX0675,Saanvi Mehta,Hyderabad,Silver,1,10,5,1702.0,1,7,17,1,2,7,0.245,App Push,43474.0,0,1
+CX0676,Kiara Nair,Chennai,Gold,2,30,5,3203.0,45,7,23,2,0,7,0.235,SMS,110856.0,1,1
+CX0677,Zoya Joshi,Chennai,Platinum,3,38,9,5492.0,34,11,24,4,1,3,0.164,SMS,401756.0,0,1
+CX0678,Vivaan Sharma,Hyderabad,Base,0,26,3,779.0,10,8,6,1,1,6,0.537,WhatsApp,8668.0,1,0
+CX0679,Aarav Sharma,Mumbai,Silver,1,74,5,1974.0,25,3,16,2,1,8,0.373,WhatsApp,39659.0,1,0
+CX0680,Diya Nair,Pune,Base,0,20,1,726.0,9,7,10,2,2,4,0.872,App Push,2176.0,1,1
+CX0681,Aditya Das,Pune,Silver,1,9,7,2737.0,19,6,12,4,1,10,0.482,WhatsApp,104034.0,0,0
+CX0682,Sai Joshi,Bengaluru,Base,0,24,3,353.0,13,4,12,3,2,6,0.415,Email,3222.0,0,1
+CX0683,Kunal Patel,Bengaluru,Base,0,9,2,1073.0,16,7,11,1,0,9,0.416,WhatsApp,8701.0,0,1
+CX0684,Kiara Sharma,Bengaluru,Base,0,7,2,976.0,19,6,5,0,0,10,0.837,SMS,7703.0,1,0
+CX0685,Aditya Patel,Delhi,Base,0,2,1,120.0,14,9,9,2,0,5,0.637,Email,476.0,1,1
+CX0686,Kunal Menon,Pune,Silver,1,3,6,2023.0,25,12,13,2,1,8,0.438,App Push,64752.0,0,1
+CX0687,Kiara Rao,Hyderabad,Gold,2,16,9,2864.0,30,13,23,10,0,9,0.334,App Push,178230.0,0,1
+CX0688,Arjun Menon,Hyderabad,Silver,1,32,6,1559.0,32,7,18,2,0,5,0.105,Email,49507.0,0,0
+CX0689,Riya Bose,Pune,Platinum,3,17,9,5930.0,33,9,24,5,0,6,0.327,App Push,449369.0,0,0
+CX0690,Navya Khan,Bengaluru,Base,0,24,2,1411.0,12,4,13,2,1,5,0.782,App Push,9421.0,1,1
+CX0691,Vihaan Menon,Delhi,Base,0,111,4,887.0,21,6,17,5,0,4,0.534,Email,6848.0,1,0
+CX0692,Kunal Nair,Bengaluru,Silver,1,1,8,2386.0,18,10,19,2,0,6,0.416,WhatsApp,105284.0,0,1
+CX0693,Kiara Gupta,Hyderabad,Base,0,3,2,592.0,21,8,6,2,0,9,0.308,SMS,4726.0,0,0
+CX0694,Arjun Das,Bengaluru,Base,0,19,2,516.0,10,2,11,0,0,9,0.255,WhatsApp,4073.0,1,1
+CX0695,Diya Bose,Pune,Base,0,39,2,120.0,11,3,6,3,0,9,0.642,SMS,895.0,0,1
+CX0696,Kiara Sharma,Delhi,Platinum,3,25,9,4854.0,27,9,25,0,1,2,0.177,App Push,373984.0,0,1
+CX0697,Pari Reddy,Bengaluru,Base,0,87,2,578.0,9,4,7,1,1,3,0.253,WhatsApp,2493.0,1,0
+CX0698,Mira Iyer,Mumbai,Base,0,26,2,744.0,23,5,13,2,0,9,0.565,WhatsApp,4908.0,0,0
+CX0699,Vihaan Gupta,Delhi,Base,0,14,7,1064.0,26,5,16,2,0,6,0.38,App Push,25875.0,1,1
+CX0700,Aditya Bose,Pune,Silver,1,51,4,2273.0,18,4,15,2,0,9,0.567,Email,39836.0,0,0
+CX0701,Kabir Khan,Mumbai,Base,0,3,1,177.0,6,6,8,0,0,7,0.673,App Push,754.0,0,0
+CX0702,Reyansh Rao,Delhi,Base,0,55,4,896.0,7,8,12,0,0,7,0.552,App Push,10873.0,1,0
+CX0703,Navya Iyer,Bengaluru,Base,0,53,3,234.0,20,3,7,3,1,10,0.635,SMS,2169.0,1,0
+CX0704,Arjun Bose,Delhi,Silver,1,99,1,2328.0,19,7,14,0,1,8,0.477,Email,8921.0,0,1
+CX0705,Anika Patel,Delhi,Platinum,3,46,9,5217.0,36,9,20,3,1,8,0.225,Email,386031.0,0,1
+CX0706,Ananya Bose,Mumbai,Silver,1,102,6,1399.0,25,10,12,2,3,4,0.137,SMS,23471.0,1,0
+CX0707,Mira Iyer,Delhi,Gold,2,51,10,3790.0,15,5,18,3,0,10,0.115,Email,236697.0,0,1
+CX0708,Ananya Sharma,Bengaluru,Base,0,15,5,928.0,12,6,6,4,0,5,0.621,App Push,15484.0,1,1
+CX0709,Riya Patel,Pune,Base,0,8,3,2248.0,24,3,15,2,2,4,0.232,WhatsApp,22271.0,0,1
+CX0710,Vihaan Nair,Hyderabad,Base,0,73,5,997.0,15,3,9,5,1,6,0.913,App Push,12018.0,0,1
+CX0711,Vivaan Verma,Bengaluru,Silver,1,63,6,2366.0,19,2,14,2,0,7,0.262,App Push,52648.0,0,0
+CX0712,Kabir Sharma,Hyderabad,Base,0,20,2,668.0,17,4,11,5,1,7,0.412,WhatsApp,3944.0,0,1
+CX0713,Aditya Reddy,Hyderabad,Silver,1,84,4,3262.0,13,6,13,5,0,10,0.242,Email,42428.0,1,1
+CX0714,Krishna Gupta,Pune,Base,0,14,7,1673.0,6,7,12,5,3,2,0.47,Email,34221.0,1,0
+CX0715,Aditya Joshi,Bengaluru,Silver,1,14,3,2495.0,33,6,10,4,0,8,0.63,App Push,41026.0,0,0
+CX0716,Anika Sharma,Bengaluru,Platinum,3,17,14,5221.0,37,13,22,4,0,7,0.214,App Push,637563.0,0,1
+CX0717,Reyansh Das,Hyderabad,Silver,1,62,2,2513.0,26,13,14,2,2,7,0.717,Email,21550.0,1,1
+CX0718,Arjun Khan,Mumbai,Base,0,15,1,660.0,16,5,13,1,1,6,0.509,SMS,2543.0,1,1
+CX0719,Veer Iyer,Bengaluru,Base,0,5,2,342.0,15,1,8,2,0,9,0.519,App Push,2721.0,0,0
+CX0720,Arjun Patel,Bengaluru,Base,0,14,1,891.0,17,5,14,2,2,6,0.29,WhatsApp,3599.0,0,1
+CX0721,Nisha Verma,Hyderabad,Base,0,92,2,1302.0,1,2,9,0,1,3,0.463,App Push,5595.0,1,1
+CX0722,Reyansh Sharma,Delhi,Silver,1,10,9,2277.0,12,4,16,2,1,8,0.398,App Push,113308.0,0,1
+CX0723,Krishna Rao,Pune,Base,0,9,6,120.0,21,7,8,1,0,4,0.538,SMS,2688.0,0,0
+CX0724,Riya Pillai,Chennai,Silver,1,69,6,3271.0,33,5,9,2,3,5,0.285,WhatsApp,61996.0,1,0
+CX0725,Diya Mehta,Mumbai,Silver,1,7,7,1729.0,14,8,15,0,1,8,0.448,App Push,67609.0,0,1
+CX0726,Aadhya Das,Bengaluru,Platinum,3,52,12,4919.0,38,12,24,4,1,6,0.071,SMS,482599.0,0,0
+CX0727,Kunal Bose,Chennai,Base,0,8,5,932.0,23,8,8,2,0,6,0.38,App Push,16821.0,1,0
+CX0728,Myra Menon,Mumbai,Gold,2,42,9,3578.0,31,7,22,4,1,10,0.132,SMS,223591.0,0,1
+CX0729,Sai Mehta,Pune,Silver,1,3,5,1961.0,43,5,16,2,1,7,0.206,Email,52577.0,0,1
+CX0730,Aryan Pillai,Chennai,Base,0,59,1,1310.0,13,6,5,3,2,5,0.871,WhatsApp,3622.0,1,1
+CX0731,Sai Patel,Bengaluru,Gold,2,92,14,3493.0,38,9,18,7,0,6,0.466,Email,262887.0,1,0
+CX0732,Kiara Nair,Delhi,Base,0,6,3,1044.0,8,4,10,0,1,10,0.294,App Push,12301.0,0,1
+CX0733,Aryan Gupta,Pune,Silver,1,53,6,2992.0,37,6,13,3,1,6,0.686,App Push,84838.0,0,0
+CX0734,Aadhya Rao,Bengaluru,Gold,2,22,4,4671.0,18,9,15,6,1,8,0.418,App Push,123008.0,0,0
+CX0735,Kabir Menon,Hyderabad,Base,0,28,2,896.0,23,2,7,3,1,7,0.52,WhatsApp,6468.0,1,0
+CX0736,Saanvi Rao,Mumbai,Silver,1,32,10,2826.0,32,4,19,4,1,8,0.198,App Push,147417.0,0,0
+CX0737,Dhruv Nair,Mumbai,Gold,2,130,10,4145.0,22,7,15,4,2,2,0.333,App Push,148460.0,1,0
+CX0738,Rohan Das,Bengaluru,Gold,2,6,10,3721.0,26,12,22,1,0,10,0.616,App Push,270695.0,0,1
+CX0739,Aryan Bose,Bengaluru,Base,0,1,1,929.0,25,6,5,0,0,10,0.716,SMS,4390.0,0,1
+CX0740,Kiara Gupta,Hyderabad,Base,0,12,8,1054.0,13,9,7,0,0,9,0.196,App Push,32884.0,0,0
+CX0741,Pari Menon,Chennai,Base,0,32,3,848.0,12,0,13,4,0,8,0.708,WhatsApp,7982.0,0,0
+CX0742,Yash Nair,Bengaluru,Platinum,3,66,15,5151.0,36,14,24,9,0,6,0.224,App Push,608717.0,0,1
+CX0743,Pari Joshi,Mumbai,Silver,1,20,8,2576.0,24,4,12,6,0,5,0.661,WhatsApp,96444.0,0,0
+CX0744,Aditya Khan,Pune,Silver,1,16,4,3151.0,30,11,17,1,0,3,0.205,App Push,64111.0,0,0
+CX0745,Kiara Pillai,Chennai,Base,0,1,7,120.0,10,7,7,3,0,6,0.19,App Push,3052.0,0,0
+CX0746,Dhruv Gupta,Delhi,Base,0,29,3,1328.0,18,8,20,1,1,4,0.847,App Push,13460.0,1,1
+CX0747,Kiara Khan,Bengaluru,Silver,1,59,4,2453.0,30,5,14,7,0,6,0.122,App Push,40136.0,1,0
+CX0748,Kabir Gupta,Delhi,Base,0,18,7,120.0,4,3,18,4,1,4,0.826,WhatsApp,2943.0,0,0
+CX0749,Reyansh Menon,Delhi,Base,0,66,6,1084.0,16,4,8,4,0,8,0.558,App Push,18172.0,0,0
+CX0750,Aadhya Nair,Bengaluru,Platinum,3,7,14,5119.0,37,18,22,4,2,6,0.344,Email,633008.0,0,0
+CX0751,Kiara Rao,Pune,Gold,2,31,7,4234.0,34,12,19,3,0,6,0.423,Email,197554.0,0,1
+CX0752,Navya Reddy,Chennai,Silver,1,55,7,2352.0,17,5,12,4,0,5,0.219,Email,79087.0,0,1
+CX0753,Diya Joshi,Hyderabad,Platinum,3,215,10,5196.0,44,10,24,2,1,8,0.752,Email,206998.0,1,0
+CX0754,Ananya Bose,Mumbai,Gold,2,24,5,3293.0,33,10,16,3,0,9,0.44,SMS,116883.0,0,1
+CX0755,Tara Iyer,Bengaluru,Silver,1,79,8,1815.0,20,8,16,1,2,6,0.406,SMS,55730.0,0,0
+CX0756,Aarav Bose,Delhi,Gold,2,9,14,4162.0,37,6,23,4,1,5,0.064,Email,408425.0,0,1
+CX0757,Nisha Joshi,Bengaluru,Gold,2,3,13,3702.0,23,11,13,2,2,6,0.122,WhatsApp,341491.0,0,0
+CX0758,Yash Rao,Bengaluru,Silver,1,21,3,2205.0,4,12,20,4,0,10,0.211,App Push,34735.0,0,1
+CX0759,Tara Gupta,Pune,Base,0,6,4,1250.0,29,1,13,5,0,7,0.703,App Push,16928.0,0,0
+CX0760,Vivaan Khan,Delhi,Base,0,10,1,394.0,17,2,11,3,2,4,0.148,WhatsApp,1515.0,1,0
+CX0761,Aditya Menon,Pune,Base,0,97,4,890.0,24,7,12,3,1,5,0.83,App Push,7664.0,1,0
+CX0762,Diya Iyer,Mumbai,Platinum,3,51,10,4798.0,29,11,25,3,0,5,0.164,Email,369198.0,0,0
+CX0763,Zoya Gupta,Mumbai,Base,0,21,1,1201.0,15,1,12,1,0,4,0.721,App Push,4028.0,1,0
+CX0764,Sai Mehta,Bengaluru,Gold,2,21,8,3387.0,40,10,11,2,0,7,0.629,Email,188787.0,0,1
+CX0765,Krishna Pillai,Mumbai,Silver,1,7,4,1769.0,25,12,15,1,1,8,0.329,App Push,40197.0,0,1
+CX0766,Aryan Sharma,Chennai,Base,0,20,2,784.0,14,4,7,3,0,7,0.202,Email,5611.0,0,0
+CX0767,Saanvi Joshi,Mumbai,Silver,1,1,14,3493.0,19,10,16,9,0,5,0.16,WhatsApp,258745.0,0,1
+CX0768,Aadhya Pillai,Bengaluru,Gold,2,41,11,4749.0,29,13,11,4,1,4,0.396,WhatsApp,359422.0,1,1
+CX0769,Arjun Bose,Chennai,Gold,2,44,7,3880.0,5,12,19,2,1,8,0.449,App Push,165867.0,0,1
+CX0770,Pari Rao,Chennai,Gold,2,53,7,4166.0,7,6,12,4,0,6,0.319,App Push,144519.0,0,0
+CX0771,Anika Iyer,Bengaluru,Base,0,18,4,1668.0,18,10,6,4,0,5,0.114,SMS,19251.0,1,0
+CX0772,Nisha Mehta,Mumbai,Base,0,15,2,1159.0,26,4,7,1,0,7,0.325,App Push,8273.0,0,0
+CX0773,Myra Mehta,Delhi,Silver,1,48,3,1228.0,15,10,14,4,0,10,0.288,WhatsApp,14248.0,0,0
+CX0774,Kunal Das,Pune,Base,0,46,3,212.0,14,1,8,0,0,5,0.724,Email,1740.0,1,1
+CX0775,Reyansh Iyer,Mumbai,Gold,2,2,10,3640.0,37,17,23,8,0,7,0.086,Email,251027.0,0,0
+CX0776,Vihaan Verma,Bengaluru,Base,0,9,5,653.0,1,6,9,3,0,7,0.432,Email,10614.0,0,0
+CX0777,Yash Reddy,Pune,Silver,1,180,5,3248.0,16,8,15,4,2,7,0.37,Email,39203.0,1,0
+CX0778,Vihaan Menon,Hyderabad,Base,0,41,2,1320.0,14,5,7,0,0,6,0.194,App Push,7476.0,0,0
+CX0779,Vivaan Bose,Mumbai,Base,0,46,2,822.0,1,5,6,2,0,5,0.754,App Push,4663.0,0,0
+CX0780,Dhruv Menon,Mumbai,Silver,1,36,2,2280.0,10,8,15,2,2,5,0.247,WhatsApp,19647.0,0,0
+CX0781,Aryan Nair,Hyderabad,Base,0,129,1,536.0,11,3,11,1,0,7,0.734,App Push,1173.0,1,0
+CX0782,Veer Sharma,Delhi,Gold,2,36,8,3578.0,26,11,19,3,0,8,0.158,Email,190815.0,0,0
+CX0783,Krishna Patel,Hyderabad,Base,0,13,3,885.0,32,4,8,1,0,8,0.662,Email,9918.0,0,0
+CX0784,Riya Das,Bengaluru,Base,0,12,4,120.0,1,4,5,1,0,5,0.62,WhatsApp,1590.0,1,0
+CX0785,Sai Joshi,Hyderabad,Base,0,38,8,799.0,11,5,7,5,0,8,0.422,Email,19384.0,0,0
+CX0786,Aditya Nair,Chennai,Base,0,98,2,996.0,1,5,6,1,0,3,0.705,WhatsApp,4009.0,1,0
+CX0787,Dhruv Mehta,Delhi,Base,0,17,2,1209.0,21,5,10,0,0,7,0.492,Email,8549.0,0,0
+CX0788,Myra Mehta,Bengaluru,Silver,1,10,9,2102.0,36,8,12,5,0,4,0.539,Email,95319.0,0,1
+CX0789,Ananya Iyer,Chennai,Silver,1,20,5,2466.0,24,9,11,2,1,5,0.327,Email,60428.0,0,0
+CX0790,Arjun Pillai,Bengaluru,Base,0,34,3,120.0,10,6,4,2,0,5,0.237,Email,1046.0,1,1
+CX0791,Anika Menon,Mumbai,Silver,1,12,8,1989.0,11,4,12,5,0,5,0.444,SMS,71032.0,0,0
+CX0792,Vivaan Nair,Bengaluru,Silver,1,12,7,2165.0,17,7,15,4,0,10,0.266,WhatsApp,82574.0,0,1
+CX0793,Ishaan Reddy,Hyderabad,Base,0,38,1,1416.0,22,7,10,1,0,8,0.616,App Push,5353.0,0,1
+CX0794,Reyansh Reddy,Pune,Gold,2,9,7,4747.0,32,5,11,4,0,8,0.27,WhatsApp,233120.0,0,0
+CX0795,Nisha Das,Chennai,Silver,1,46,3,1928.0,21,5,12,4,0,7,0.445,App Push,20471.0,0,1
+CX0796,Mira Menon,Chennai,Silver,1,76,7,2041.0,4,8,14,3,0,4,0.28,WhatsApp,53745.0,0,0
+CX0797,Anika Joshi,Chennai,Base,0,29,5,721.0,16,2,11,2,1,5,0.935,Email,11050.0,0,0
+CX0798,Anika Mehta,Delhi,Silver,1,109,7,3665.0,26,6,9,4,0,8,0.379,WhatsApp,86620.0,1,0
+CX0799,Krishna Mehta,Pune,Base,0,58,2,1288.0,26,4,8,4,0,6,0.235,SMS,7409.0,0,0
+CX0800,Arjun Pillai,Hyderabad,Silver,1,1,6,2360.0,25,8,13,2,0,8,0.38,Email,77436.0,0,1
+CX0801,Aadhya Menon,Chennai,Base,0,9,8,857.0,13,7,12,0,0,6,0.396,App Push,25469.0,1,1
+CX0802,Aarav Reddy,Mumbai,Silver,1,33,8,2670.0,36,11,15,4,1,10,0.714,Email,113643.0,0,1
+CX0803,Aryan Gupta,Bengaluru,Base,0,3,2,532.0,13,8,6,1,2,4,0.398,SMS,3976.0,0,0
+CX0804,Aditya Sharma,Bengaluru,Base,0,27,6,444.0,3,4,9,4,1,2,0.931,SMS,7872.0,1,0
+CX0805,Tara Pillai,Delhi,Base,0,14,3,329.0,2,4,7,2,1,5,0.871,App Push,3190.0,0,1
+CX0806,Vivaan Pillai,Mumbai,Base,0,44,3,457.0,12,3,9,1,0,10,0.211,WhatsApp,4181.0,1,0
+CX0807,Anika Patel,Hyderabad,Base,0,14,6,300.0,25,5,4,2,2,4,0.541,App Push,6250.0,1,0
+CX0808,Sai Reddy,Delhi,Base,0,9,1,902.0,6,7,9,0,1,5,0.688,App Push,3563.0,1,1
+CX0809,Krishna Mehta,Chennai,Base,0,72,8,579.0,6,4,14,1,0,9,0.312,WhatsApp,12724.0,1,0
+CX0810,Diya Mehta,Delhi,Silver,1,1,4,2590.0,10,10,13,1,0,9,0.148,App Push,58008.0,0,0
+CX0811,Dhruv Joshi,Bengaluru,Base,0,10,3,1361.0,22,2,8,3,1,2,0.342,Email,11741.0,1,0
+CX0812,Krishna Gupta,Bengaluru,Base,0,8,2,750.0,1,4,12,2,1,7,0.606,SMS,5476.0,1,0
+CX0813,Kiara Das,Pune,Silver,1,68,3,1244.0,11,2,13,6,2,7,0.393,App Push,12211.0,0,1
+CX0814,Riya Joshi,Mumbai,Silver,1,41,3,1837.0,41,5,19,4,4,4,0.26,App Push,26950.0,0,0
+CX0815,Aditya Pillai,Bengaluru,Silver,1,31,6,3137.0,47,7,16,3,2,1,0.351,Email,85559.0,0,0
+CX0816,Aadhya Reddy,Delhi,Gold,2,9,9,3635.0,46,8,24,6,0,9,0.246,App Push,230497.0,1,1
+CX0817,Riya Mehta,Mumbai,Gold,2,11,2,5082.0,40,9,26,3,2,8,0.305,App Push,77837.0,0,1
+CX0818,Vihaan Reddy,Hyderabad,Platinum,3,158,14,5084.0,40,10,20,5,0,9,0.133,WhatsApp,335169.0,1,0
+CX0819,Kabir Pillai,Delhi,Silver,1,37,4,1922.0,11,5,15,2,0,5,0.485,App Push,35679.0,0,0
+CX0820,Mira Iyer,Mumbai,Gold,2,28,11,3644.0,36,7,23,8,0,6,0.415,Email,269545.0,0,1
+CX0821,Kiara Nair,Pune,Gold,2,90,8,4012.0,13,11,26,4,0,8,0.327,Email,145976.0,1,0
+CX0822,Tara Verma,Delhi,Silver,1,40,4,2730.0,18,3,15,0,2,3,0.479,WhatsApp,48460.0,1,0
+CX0823,Saanvi Bose,Mumbai,Platinum,3,17,11,4754.0,35,7,23,5,0,7,0.113,Email,452041.0,0,1
+CX0824,Dhruv Khan,Pune,Base,0,6,3,667.0,24,7,11,1,1,4,0.586,SMS,7271.0,0,0
+CX0825,Aryan Khan,Delhi,Base,0,10,4,1663.0,2,9,14,2,1,6,0.604,WhatsApp,24262.0,0,1
+CX0826,Sai Iyer,Chennai,Gold,2,2,14,3831.0,15,10,17,6,0,7,0.17,App Push,377162.0,0,0
+CX0827,Kiara Iyer,Mumbai,Silver,1,1,3,3192.0,19,8,16,1,0,8,0.508,SMS,53914.0,0,1
+CX0828,Krishna Nair,Bengaluru,Base,0,3,3,1360.0,22,1,17,3,1,7,0.635,Email,14520.0,0,1
+CX0829,Veer Mehta,Chennai,Base,0,12,7,1550.0,14,2,11,2,0,7,0.604,WhatsApp,36975.0,0,0
+CX0830,Rohan Nair,Bengaluru,Silver,1,16,7,2368.0,15,12,12,4,0,6,0.518,App Push,88416.0,0,0
+CX0831,Kabir Mehta,Hyderabad,Silver,1,15,5,2312.0,16,4,13,3,0,6,0.241,App Push,62231.0,0,0
+CX0832,Navya Joshi,Chennai,Platinum,3,9,15,4968.0,38,13,22,3,0,10,0.188,SMS,657843.0,0,0
+CX0833,Mira Pillai,Hyderabad,Silver,1,4,6,1731.0,23,4,11,0,0,6,0.087,SMS,54725.0,0,1
+CX0834,Pari Gupta,Delhi,Silver,1,150,9,2476.0,24,7,14,3,1,6,0.353,WhatsApp,57463.0,1,0
+CX0835,Pari Pillai,Mumbai,Base,0,19,3,1493.0,20,5,6,0,1,7,0.484,App Push,14700.0,1,1
+CX0836,Saanvi Menon,Pune,Gold,2,36,6,4215.0,27,12,17,4,0,10,0.302,Email,170268.0,0,1
+CX0837,Sai Mehta,Pune,Gold,2,1,9,3534.0,21,11,21,1,0,8,0.236,App Push,229420.0,0,0
+CX0838,Saanvi Menon,Mumbai,Base,0,49,5,906.0,35,9,12,1,0,7,0.163,App Push,13211.0,0,0
+CX0839,Anika Pillai,Chennai,Silver,1,21,7,2532.0,1,5,17,3,0,9,0.497,App Push,93082.0,0,0
+CX0840,Saanvi Das,Hyderabad,Base,0,51,3,1691.0,12,1,7,2,0,3,0.413,WhatsApp,12096.0,1,0
+CX0841,Aarav Pillai,Bengaluru,Base,0,5,1,934.0,18,6,13,0,0,6,0.397,Email,4000.0,0,0
+CX0842,Vihaan Sharma,Hyderabad,Base,0,28,5,465.0,33,5,5,1,0,9,0.846,App Push,7902.0,0,1
+CX0843,Navya Reddy,Hyderabad,Silver,1,13,8,1536.0,9,3,14,3,0,10,0.67,SMS,65105.0,0,0
+CX0844,Kunal Iyer,Hyderabad,Silver,1,18,9,3060.0,29,2,8,3,0,8,0.568,App Push,142796.0,0,1
+CX0845,Navya Reddy,Delhi,Silver,1,11,7,1969.0,25,11,9,7,1,8,0.157,App Push,67710.0,0,0
+CX0846,Dhruv Das,Mumbai,Silver,1,78,10,2483.0,46,3,14,2,0,6,0.572,App Push,104431.0,1,0
+CX0847,Aadhya Menon,Bengaluru,Base,0,43,2,613.0,18,4,9,2,2,7,0.731,App Push,3795.0,1,0
+CX0848,Kiara Rao,Mumbai,Silver,1,34,10,2475.0,32,12,12,0,0,8,0.458,SMS,130081.0,0,0
+CX0849,Aditya Bose,Hyderabad,Base,0,103,2,964.0,4,4,8,2,1,5,0.082,WhatsApp,3960.0,1,0
+CX0850,Rohan Sharma,Delhi,Base,0,2,1,1234.0,19,1,10,2,0,7,0.732,SMS,5401.0,0,0
+CX0851,Aryan Das,Pune,Base,0,5,4,745.0,9,5,4,2,0,7,0.688,SMS,10151.0,0,0
+CX0852,Aditya Joshi,Pune,Silver,1,68,8,2803.0,9,5,11,5,2,2,0.427,WhatsApp,71475.0,1,0
+CX0853,Saanvi Gupta,Pune,Gold,2,37,10,3911.0,40,8,21,2,0,7,0.231,Email,265732.0,0,0
+CX0854,Veer Verma,Pune,Base,0,25,5,907.0,26,7,6,4,1,3,0.586,App Push,14146.0,0,1
+CX0855,Diya Gupta,Pune,Silver,1,18,6,2532.0,16,5,11,3,1,6,0.173,SMS,69690.0,0,1
+CX0856,Aditya Verma,Delhi,Base,0,49,2,1371.0,3,5,11,2,0,6,0.343,WhatsApp,7501.0,0,0
+CX0857,Saanvi Bose,Hyderabad,Platinum,3,36,13,5581.0,37,6,21,8,1,2,0.55,App Push,576851.0,0,1
+CX0858,Sai Verma,Pune,Silver,1,14,8,765.0,19,8,14,4,0,10,0.3,WhatsApp,32101.0,1,1
+CX0859,Ishaan Khan,Bengaluru,Silver,1,18,3,1684.0,29,6,14,3,0,8,0.482,Email,28346.0,0,1
+CX0860,Pari Khan,Bengaluru,Platinum,3,13,15,5008.0,49,12,20,7,0,7,0.709,Email,657387.0,0,1
+CX0861,Zoya Nair,Delhi,Gold,2,4,11,2857.0,29,9,16,3,0,7,0.207,Email,224645.0,0,1
+CX0862,Vihaan Menon,Delhi,Base,0,22,3,1277.0,24,6,10,0,0,7,0.167,Email,13353.0,0,0
+CX0863,Ananya Mehta,Chennai,Base,0,15,4,1330.0,25,1,6,2,1,6,0.379,Email,16469.0,0,0
+CX0864,Diya Bose,Pune,Gold,2,15,7,4135.0,31,9,19,6,0,8,0.181,WhatsApp,205062.0,0,0
+CX0865,Nisha Iyer,Hyderabad,Gold,2,48,10,3901.0,15,10,21,2,0,7,0.37,App Push,244579.0,0,1
+CX0866,Kunal Patel,Mumbai,Base,0,10,0,374.0,10,5,12,2,1,6,0.56,WhatsApp,314.0,1,0
+CX0867,Krishna Nair,Chennai,Base,0,13,4,795.0,10,4,13,0,0,6,0.397,App Push,10191.0,0,1
+CX0868,Tara Menon,Mumbai,Base,0,3,2,1288.0,11,9,8,1,1,8,0.331,WhatsApp,9344.0,1,0
+CX0869,Yash Bose,Delhi,Gold,2,45,11,4155.0,29,9,17,4,0,9,0.529,Email,293100.0,0,0
+CX0870,Diya Sharma,Bengaluru,Silver,1,32,13,2533.0,27,2,15,4,2,5,0.278,Email,152362.0,0,1
+CX0871,Aditya Gupta,Pune,Base,0,82,1,750.0,20,1,10,1,2,4,0.952,Email,1914.0,0,0
+CX0872,Yash Patel,Hyderabad,Base,0,19,6,932.0,10,8,9,3,0,9,0.442,Email,19749.0,0,0
+CX0873,Kunal Gupta,Bengaluru,Base,0,5,3,1188.0,16,7,10,0,1,6,0.794,App Push,14387.0,0,0
+CX0874,Aadhya Sharma,Chennai,Gold,2,65,5,2930.0,35,7,11,1,0,8,0.479,Email,85715.0,1,1
+CX0875,Kiara Joshi,Hyderabad,Base,0,43,2,866.0,14,8,15,1,0,10,0.303,App Push,5429.0,1,0
+CX0876,Veer Verma,Delhi,Base,0,51,4,952.0,24,2,13,3,2,0,0.51,WhatsApp,8954.0,1,1
+CX0877,Zoya Rao,Hyderabad,Silver,1,109,7,2636.0,10,8,11,3,0,6,0.177,App Push,48328.0,1,0
+CX0878,Reyansh Reddy,Chennai,Platinum,3,22,11,5561.0,35,14,26,7,0,8,0.168,Email,528839.0,0,0
+CX0879,Vivaan Rao,Bengaluru,Base,0,17,4,981.0,14,6,10,4,3,1,0.624,SMS,12171.0,0,1
+CX0880,Kunal Khan,Hyderabad,Silver,1,54,4,2286.0,23,9,10,0,1,5,0.136,Email,43171.0,1,1
+CX0881,Dhruv Gupta,Delhi,Base,0,39,4,648.0,5,8,10,1,1,3,0.57,Email,6961.0,1,0
+CX0882,Mira Patel,Chennai,Gold,2,22,5,4189.0,25,13,30,6,1,8,0.15,WhatsApp,140520.0,0,1
+CX0883,Riya Bose,Chennai,Silver,1,40,5,2687.0,33,8,18,2,2,7,0.076,SMS,67196.0,0,1
+CX0884,Tara Gupta,Hyderabad,Gold,2,47,11,3622.0,28,9,18,7,1,10,0.704,Email,253263.0,0,1
+CX0885,Aditya Gupta,Pune,Silver,1,3,4,2506.0,4,10,14,4,0,7,0.242,Email,53744.0,1,1
+CX0886,Yash Rao,Mumbai,Platinum,3,4,8,5317.0,49,10,27,6,1,4,0.161,SMS,367700.0,0,1
+CX0887,Navya Pillai,Bengaluru,Base,0,1,1,274.0,20,2,8,4,2,3,0.847,App Push,951.0,0,0
+CX0888,Krishna Rao,Delhi,Gold,2,2,11,3468.0,23,2,24,3,3,3,0.184,Email,264786.0,0,0
+CX0889,Kunal Mehta,Mumbai,Base,0,1,6,1127.0,10,5,7,2,0,4,0.462,Email,22517.0,1,1
+CX0890,Myra Verma,Hyderabad,Base,0,33,3,801.0,1,5,7,1,1,4,0.609,SMS,6671.0,1,0
+CX0891,Arjun Pillai,Delhi,Silver,1,96,6,1883.0,15,9,13,0,1,9,0.337,App Push,37345.0,1,0
+CX0892,Reyansh Iyer,Mumbai,Gold,2,18,8,3926.0,28,8,14,4,0,10,0.318,WhatsApp,219464.0,1,0
+CX0893,Diya Pillai,Bengaluru,Silver,1,38,8,3034.0,13,8,11,1,0,9,0.618,Email,122951.0,0,0
+CX0894,Dhruv Rao,Chennai,Base,0,14,4,964.0,18,8,7,3,0,7,0.411,App Push,13442.0,0,0
+CX0895,Rohan Bose,Chennai,Silver,1,7,2,1706.0,27,10,23,4,1,5,0.326,App Push,18099.0,0,1
+CX0896,Nisha Patel,Bengaluru,Silver,1,1,7,1759.0,25,4,11,5,1,9,0.509,App Push,68427.0,0,1
+CX0897,Kunal Menon,Hyderabad,Base,0,41,4,908.0,11,6,16,1,0,4,0.375,App Push,10710.0,1,0
+CX0898,Nisha Verma,Bengaluru,Base,0,15,2,342.0,26,7,9,1,1,5,0.171,WhatsApp,2530.0,0,0
+CX0899,Yash Reddy,Bengaluru,Gold,2,170,5,3768.0,40,3,18,3,0,8,0.33,App Push,63056.0,1,0
